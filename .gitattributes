@@ -1,0 +1,60 @@
+# NWN file formats -- treated as opaque binary so git never touches
+# line endings, BOM, or any other "helpful" normalisation. This is
+# critical for .set tilesets (Windows toolset crashes on LF-only) and
+# .uti/.utp/etc. (GFF binary -- any byte change corrupts the file).
+
+# Tileset / area / module files
+*.set    binary
+*.itp    binary
+*.are    binary
+*.git    binary
+*.gic    binary
+*.ifo    binary
+*.fac    binary
+*.jrl    binary
+
+# Resource templates (GFF binary)
+*.utp    binary
+*.uti    binary
+*.utc    binary
+*.utm    binary
+*.uts    binary
+*.utt    binary
+*.utw    binary
+*.utd    binary
+*.ute    binary
+*.dlg    binary
+*.bic    binary
+
+# Models and walkmeshes
+*.mdl    binary
+*.mdx    binary
+*.wok    binary
+*.dwk    binary
+*.pwk    binary
+
+# Textures and materials
+*.tga    binary
+*.dds    binary
+*.plt    binary
+*.mtr    binary
+*.txi    binary
+
+# Archives
+*.bif    binary
+*.key    binary
+*.hak    binary
+*.erf    binary
+*.mod    binary
+*.tlk    binary
+
+# Sound
+*.wav    binary
+*.bmu    binary
+
+# 2DA files are TEXT but NWN explicitly requires CRLF
+*.2da    text eol=crlf
+
+# Scripts -- NWN compiler tolerates either; CRLF is the toolset default
+*.nss    text eol=crlf
+*.ncs    binary
