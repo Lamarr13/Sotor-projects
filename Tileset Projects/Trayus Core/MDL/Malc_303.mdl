@@ -1,0 +1,74 @@
+# NeverBlender 4.0.5|Blender 4.0.2|2026-06-15
+filedependancy MalachorCorestep2.blend
+newmodel Malc_303
+setsupermodel Malc_303 null
+classification TILE
+setanimationscale 1.0
+beginmodelgeom Malc_303
+node dummy Malc_303
+  parent null
+endnode
+node aabb 303_wok
+  parent Malc_303
+  position  0.00000  0.00000 -0.09891
+  orientation  0.00000  1.00000  0.00000  0.00000
+  verts 6
+    -5.00000 -5.00000 -1.58535
+    -5.00000  5.00000 -1.69945
+     5.00000 -5.00000 -1.54856
+     1.93382  5.00000 -1.69945
+     5.00000  5.00000 -1.69945
+     5.00000  1.82378 -1.69945
+  faces 4
+    4 3 5 0  0 0 0 2
+    3 1 0 0  0 0 0 2
+    2 5 0 0  0 0 0 2
+    5 3 0 0  0 0 0 2
+  aabb -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.54856  -1
+       -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.58535  -1
+       -5.00000 -5.00000 -1.69945   1.93382  5.00000 -1.58535   1
+       -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.58535   3
+       -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.54856  -1
+       -5.00000 -5.00000 -1.69945   5.00000  1.82378 -1.54856   2
+        1.93382  1.82378 -1.69945   5.00000  5.00000 -1.69945   0
+endnode
+node light Malc_303ml1
+  parent Malc_303
+  position  0.00000  0.00000  172.77754
+  orientation  0.00000  1.00000  0.00000  0.00000
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 1
+  lightpriority 5
+  fadingLight 1
+  radius 14.0
+  multiplier 1.0
+  color 0.00 0.00 0.00
+endnode
+node light Malc_303ml2
+  parent Malc_303
+  position  2.23000 -2.23000  169.77754
+  orientation  0.00000  1.00000  0.00000  0.00000
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 1
+  lightpriority 5
+  fadingLight 1
+  radius 14.0
+  multiplier 1.0
+  color 0.00 0.00 0.00
+endnode
+node dummy Malc_303sl1
+  parent Malc_303
+  position  3.00000 -3.00000  164.08556
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Malc_303sl2
+  parent Malc_303
+  position  3.00000  3.00000  164.08556
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+endmodelgeom Malc_303
+donemodel Malc_303

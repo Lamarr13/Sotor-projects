@@ -1,0 +1,74 @@
+# NeverBlender 4.0.5|Blender 4.0.2|2026-06-15
+filedependancy MalachorCorestep2.blend
+newmodel Malc_73
+setsupermodel Malc_73 null
+classification TILE
+setanimationscale 1.0
+beginmodelgeom Malc_73
+node dummy Malc_73
+  parent null
+endnode
+node aabb 73_wok
+  parent Malc_73
+  position  0.00000  0.00000 -0.09891
+  orientation  0.00000  1.00000  0.00000  0.00000
+  verts 6
+    -5.00000 -2.64706 -1.69945
+    -5.00000 -5.00000 -1.69945
+    -5.00000  5.00000 -1.69945
+     5.00000  5.00000 -1.69945
+     5.00000 -5.00000 -1.69945
+     2.22222  5.00000 -1.69945
+  faces 4
+    4 5 0 0  0 0 0 16
+    5 2 0 0  0 0 0 16
+    0 1 4 0  0 0 0 16
+    4 3 5 0  0 0 0 16
+  aabb -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.69945  -1
+       -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.69945  -1
+       -5.00000 -2.64706 -1.69945   2.22222  5.00000 -1.69945   1
+       -5.00000 -5.00000 -1.69945   5.00000 -2.64706 -1.69945   2
+       -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.69945  -1
+       -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.69945   0
+        2.22222 -5.00000 -1.69945   5.00000  5.00000 -1.69945   3
+endnode
+node light Malc_73ml1
+  parent Malc_73
+  position  0.00000  0.00000  172.77754
+  orientation  0.00000  1.00000  0.00000  0.00000
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 1
+  lightpriority 5
+  fadingLight 1
+  radius 14.0
+  multiplier 1.0
+  color 0.00 0.00 0.00
+endnode
+node light Malc_73ml2
+  parent Malc_73
+  position  2.23000 -2.23000  169.77754
+  orientation  0.00000  1.00000  0.00000  0.00000
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 1
+  lightpriority 5
+  fadingLight 1
+  radius 14.0
+  multiplier 1.0
+  color 0.00 0.00 0.00
+endnode
+node dummy Malc_73sl1
+  parent Malc_73
+  position  3.00000 -3.00000  164.08556
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Malc_73sl2
+  parent Malc_73
+  position  3.00000  3.00000  164.08556
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+endmodelgeom Malc_73
+donemodel Malc_73

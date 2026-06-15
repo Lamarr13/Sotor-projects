@@ -1,0 +1,81 @@
+# NeverBlender 4.0.5|Blender 4.0.2|2026-06-15
+filedependancy MalachorCorestep2.blend
+newmodel Malc_220
+setsupermodel Malc_220 null
+classification TILE
+setanimationscale 1.0
+beginmodelgeom Malc_220
+node dummy Malc_220
+  parent null
+endnode
+node aabb 220_wok
+  parent Malc_220
+  position  0.00000  0.00000 -0.09891
+  orientation  0.00000  1.00000  0.00000  0.00000
+  verts 7
+    -5.00000 -5.00000 -1.69945
+     5.00000 -2.56990 -1.69945
+    -5.00000  5.00000 -1.69945
+     5.00000  5.00000 -1.69945
+     5.00000 -5.00000 -1.69945
+     1.24904 -0.91689 -1.69945
+     2.43242  5.00000 -1.69945
+  faces 6
+    5 2 0 0  0 0 0 16
+    3 5 1 0  0 0 0  2
+    0 4 5 0  0 0 0 16
+    4 1 5 0  0 0 0 16
+    5 6 2 0  0 0 0 16
+    3 6 5 0  0 0 0  2
+  aabb -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.69945  -1
+       -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.69945  -1
+       -5.00000 -5.00000 -1.69945   1.24904  5.00000 -1.69945   0
+       -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.69945  -1
+       -5.00000 -0.91689 -1.69945   2.43242  5.00000 -1.69945   4
+       -5.00000 -5.00000 -1.69945   5.00000 -0.91689 -1.69945   2
+        1.24904 -5.00000 -1.69945   5.00000  5.00000 -1.69945  -1
+        1.24904 -5.00000 -1.69945   5.00000 -0.91689 -1.69945   3
+        1.24904 -2.56990 -1.69945   5.00000  5.00000 -1.69945  -1
+        1.24904 -2.56990 -1.69945   5.00000  5.00000 -1.69945   1
+        1.24904 -0.91689 -1.69945   5.00000  5.00000 -1.69945   5
+endnode
+node light Malc_220ml1
+  parent Malc_220
+  position  0.00000  0.00000  172.77754
+  orientation  0.00000  1.00000  0.00000  0.00000
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 1
+  lightpriority 5
+  fadingLight 1
+  radius 14.0
+  multiplier 1.0
+  color 0.00 0.00 0.00
+endnode
+node light Malc_220ml2
+  parent Malc_220
+  position  2.23000 -2.23000  169.77754
+  orientation  0.00000  1.00000  0.00000  0.00000
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 1
+  lightpriority 5
+  fadingLight 1
+  radius 14.0
+  multiplier 1.0
+  color 0.00 0.00 0.00
+endnode
+node dummy Malc_220sl1
+  parent Malc_220
+  position  3.00000 -3.00000  164.08556
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Malc_220sl2
+  parent Malc_220
+  position  3.00000  3.00000  164.08556
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+endmodelgeom Malc_220
+donemodel Malc_220

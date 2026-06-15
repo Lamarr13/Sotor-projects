@@ -1,0 +1,66 @@
+# NeverBlender 4.0.5|Blender 4.0.2|2026-06-15
+filedependancy MalachorCorestep2.blend
+newmodel Malc_04
+setsupermodel Malc_04 null
+classification TILE
+setanimationscale 1.0
+beginmodelgeom Malc_04
+node dummy Malc_04
+  parent null
+endnode
+node aabb 04_wok
+  parent Malc_04
+  position  0.00000  0.00000 -0.09891
+  orientation  0.00000  1.00000  0.00000  0.00000
+  verts 4
+     5.00000 -5.00000 -1.56823
+    -5.00000 -5.00000 -1.60103
+     5.00000  5.00000 -1.66261
+    -5.00000  5.00000 -1.67467
+  faces 2
+    1 2 3 0  0 0 0 2
+    1 0 2 0  0 0 0 2
+  aabb -5.00000 -5.00000 -1.67467   5.00000  5.00000 -1.56823  -1
+       -5.00000 -5.00000 -1.67467   5.00000  5.00000 -1.60103   0
+       -5.00000 -5.00000 -1.66261   5.00000  5.00000 -1.56823   1
+endnode
+node light Malc_04ml1
+  parent Malc_04
+  position  0.00000  0.00000  172.77754
+  orientation  0.00000  1.00000  0.00000  0.00000
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 1
+  lightpriority 5
+  fadingLight 1
+  radius 14.0
+  multiplier 1.0
+  color 0.00 0.00 0.00
+endnode
+node light Malc_04ml2
+  parent Malc_04
+  position  2.23000 -2.23000  169.77754
+  orientation  0.00000  1.00000  0.00000  0.00000
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 1
+  lightpriority 5
+  fadingLight 1
+  radius 14.0
+  multiplier 1.0
+  color 0.00 0.00 0.00
+endnode
+node dummy Malc_04sl1
+  parent Malc_04
+  position  3.00000 -3.00000  164.08556
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Malc_04sl2
+  parent Malc_04
+  position  3.00000  3.00000  164.08556
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+endmodelgeom Malc_04
+donemodel Malc_04

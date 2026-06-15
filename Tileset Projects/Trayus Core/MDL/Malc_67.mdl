@@ -1,0 +1,81 @@
+# NeverBlender 4.0.5|Blender 4.0.2|2026-06-15
+filedependancy MalachorCorestep2.blend
+newmodel Malc_67
+setsupermodel Malc_67 null
+classification TILE
+setanimationscale 1.0
+beginmodelgeom Malc_67
+node dummy Malc_67
+  parent null
+endnode
+node aabb 67_wok
+  parent Malc_67
+  position  0.00000  0.00000 -0.09891
+  orientation  0.00000  1.00000  0.00000  0.00000
+  verts 7
+    -5.00000 -1.38747 -1.69945
+     5.00000  5.00000 -1.69945
+    -5.00000 -5.00000 -1.69727
+    -5.00000  5.00000 -1.69945
+    -0.97717  2.97054 -1.69945
+     5.00000 -5.00000 -1.69074
+    -0.11095  5.00000 -1.69945
+  faces 6
+    3 4 6 0  0 0 0 16
+    0 2 5 0  0 0 0  2
+    3 0 4 0  0 0 0 16
+    5 1 4 0  0 0 0  2
+    1 6 4 0  0 0 0  2
+    4 0 5 0  0 0 0  2
+  aabb -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.69074  -1
+       -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.69074  -1
+       -5.00000 -1.38747 -1.69945  -0.97717  5.00000 -1.69945   2
+       -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.69074  -1
+       -5.00000  2.97054 -1.69945  -0.11095  5.00000 -1.69945   0
+       -5.00000 -5.00000 -1.69945   5.00000 -1.38747 -1.69074   1
+       -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.69074  -1
+       -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.69074  -1
+       -5.00000 -5.00000 -1.69945   5.00000  2.97054 -1.69074   5
+       -0.97717  2.97054 -1.69945   5.00000  5.00000 -1.69945   4
+       -0.97717 -5.00000 -1.69945   5.00000  5.00000 -1.69074   3
+endnode
+node light Malc_67ml1
+  parent Malc_67
+  position  0.00000  0.00000  172.77754
+  orientation  0.00000  1.00000  0.00000  0.00000
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 1
+  lightpriority 5
+  fadingLight 1
+  radius 14.0
+  multiplier 1.0
+  color 0.00 0.00 0.00
+endnode
+node light Malc_67ml2
+  parent Malc_67
+  position  2.23000 -2.23000  169.77754
+  orientation  0.00000  1.00000  0.00000  0.00000
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 1
+  lightpriority 5
+  fadingLight 1
+  radius 14.0
+  multiplier 1.0
+  color 0.00 0.00 0.00
+endnode
+node dummy Malc_67sl1
+  parent Malc_67
+  position  3.00000 -3.00000  164.08556
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Malc_67sl2
+  parent Malc_67
+  position  3.00000  3.00000  164.08556
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+endmodelgeom Malc_67
+donemodel Malc_67

@@ -1,0 +1,88 @@
+# NeverBlender 4.0.5|Blender 4.0.2|2026-06-15
+filedependancy MalachorCorestep2.blend
+newmodel Malc_237
+setsupermodel Malc_237 null
+classification TILE
+setanimationscale 1.0
+beginmodelgeom Malc_237
+node dummy Malc_237
+  parent null
+endnode
+node aabb 237_wok
+  parent Malc_237
+  position  0.00000  0.00000 -0.09891
+  orientation  0.00000  1.00000  0.00000  0.00000
+  verts 8
+    -5.00000 -5.00000 -1.69945
+    -5.00000  5.00000 -1.60359
+     5.00000  5.00000 -1.60399
+     5.00000 -5.00000 -1.65832
+    -1.45441  1.48709 -1.69945
+     2.83929 -2.96562 -1.69945
+     2.43242 -5.00000 -1.69945
+     0.33400  5.00000 -1.55944
+  faces 8
+    5 6 3 0  0 0 0  2
+    4 7 1 0  0 0 0 16
+    3 2 5 0  0 0 0  2
+    2 7 4 0  0 0 0  2
+    5 2 4 0  0 0 0  2
+    1 0 4 0  0 0 0 16
+    0 6 5 0  0 0 0 16
+    4 0 5 0  0 0 0 16
+  aabb -5.00000 -5.00000 -1.69945   5.00000  5.00000 -1.55944  -1
+       -5.00000 -5.00000 -1.69945   2.83929  5.00000 -1.55944  -1
+       -5.00000 -5.00000 -1.69945   2.83929  1.48709 -1.69945  -1
+       -5.00000 -5.00000 -1.69945   2.83929  1.48709 -1.69945   7
+       -5.00000 -5.00000 -1.69945   2.83929 -2.96562 -1.69945   6
+       -5.00000 -5.00000 -1.69945   0.33400  5.00000 -1.55944  -1
+       -5.00000 -5.00000 -1.69945  -1.45441  5.00000 -1.60359   5
+       -5.00000  1.48709 -1.69945   0.33400  5.00000 -1.55944   1
+       -1.45441 -5.00000 -1.69945   5.00000  5.00000 -1.55944  -1
+        2.43242 -5.00000 -1.69945   5.00000  5.00000 -1.60399  -1
+        2.43242 -5.00000 -1.69945   5.00000 -2.96562 -1.65832   0
+        2.83929 -5.00000 -1.69945   5.00000  5.00000 -1.60399   2
+       -1.45441 -2.96562 -1.69945   5.00000  5.00000 -1.55944  -1
+       -1.45441 -2.96562 -1.69945   5.00000  5.00000 -1.60399   4
+       -1.45441  1.48709 -1.69945   5.00000  5.00000 -1.55944   3
+endnode
+node light Malc_237ml1
+  parent Malc_237
+  position  0.00000  0.00000  172.77754
+  orientation  0.00000  1.00000  0.00000  0.00000
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 1
+  lightpriority 5
+  fadingLight 1
+  radius 14.0
+  multiplier 1.0
+  color 0.00 0.00 0.00
+endnode
+node light Malc_237ml2
+  parent Malc_237
+  position  2.23000 -2.23000  169.77754
+  orientation  0.00000  1.00000  0.00000  0.00000
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 1
+  lightpriority 5
+  fadingLight 1
+  radius 14.0
+  multiplier 1.0
+  color 0.00 0.00 0.00
+endnode
+node dummy Malc_237sl1
+  parent Malc_237
+  position  3.00000 -3.00000  164.08556
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Malc_237sl2
+  parent Malc_237
+  position  3.00000  3.00000  164.08556
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+endmodelgeom Malc_237
+donemodel Malc_237
