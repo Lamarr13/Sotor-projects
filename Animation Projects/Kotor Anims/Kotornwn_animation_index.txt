@@ -1,0 +1,1659 @@
+NEVERBLENDER / AURORA ANIMATION INDEX
+================================================================================
+Generated: 2026-06-24 01:40:04
+Blender file: F:\Data\NWN\SOTOR\DEV\Blender Files\ANIMATIONS\KotorAnimsWIP.blend
+Objects exported: 1
+
+KOTOR COMBAT ANIMATION CODE LEGEND
+--------------------------------------------------------------------------------
+Format: [category letter][weapon number][action letter][variation]
+Example: f2d2a = feat / single saber / damage / variation 2a
+
+Category letter:
+  b = ranged
+  c = melee / complex melee
+  f = feat / special melee
+  g = generic
+  m = monster melee
+
+Weapon number:
+  0 = N/A / droid
+  1 = stun baton
+  2 = single saber
+  3 = two-handed saber / double-bladed saber
+  4 = dual sabers
+  5 = single blaster
+  6 = dual blasters
+  7 = rifle
+  8 = natural attack / unarmed
+  9 = heavy carbine
+  10 = unarmed complex, K2 only
+  11 = wrist launcher, K2 only
+
+Action letter:
+  a = attack
+  d = damage / hit reaction
+  f = unused / unclear
+  g = dodge
+  n = deflection
+  p = parry
+  r = ready
+  w = wield
+
+================================================================================
+
+MODEL: KA_Male02
+--------------------------------------------------------------------------------
+Animation count: 230
+
+Animation: activate
+  Frames: 5840 - 5870  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.5
+  Events: -
+
+Animation: animloop01
+  Frames: 2850 - 2899  (50 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.75
+  Events: -
+
+Animation: animloop02
+  Frames: 20410 - 20810  (401 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.75
+  Events: -
+
+Animation: animloop03
+  Frames: 7350 - 7650  (301 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.75
+  Events: -
+
+Animation: animloop04
+  Frames: 27370 - 27570  (201 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: animloop05
+  Frames: 27260 - 27304  (45 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b5a1
+  Frames: 12490 - 12534  (45 frames)
+  Description: ranged | single blaster | attack | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b5a2
+  Frames: 12600 - 12644  (45 frames)
+  Description: ranged | single blaster | attack | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b5a3
+  Frames: 15700 - 15745  (46 frames)
+  Description: ranged | single blaster | attack | variation 3
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b5a4
+  Frames: 19030 - 19075  (46 frames)
+  Description: ranged | single blaster | attack | variation 4
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b6a1
+  Frames: 13770 - 13814  (45 frames)
+  Description: ranged | dual blasters | attack | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b6a2
+  Frames: 13880 - 13924  (45 frames)
+  Description: ranged | dual blasters | attack | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b6a3
+  Frames: 15810 - 15855  (46 frames)
+  Description: ranged | dual blasters | attack | variation 3
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b6a4
+  Frames: 19140 - 19185  (46 frames)
+  Description: ranged | dual blasters | attack | variation 4
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b7a1
+  Frames: 14400 - 14445  (46 frames)
+  Description: ranged | rifle | attack | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b7a2
+  Frames: 14510 - 14555  (46 frames)
+  Description: ranged | rifle | attack | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b7a3
+  Frames: 15920 - 15965  (46 frames)
+  Description: ranged | rifle | attack | variation 3
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b7a4
+  Frames: 19250 - 19295  (46 frames)
+  Description: ranged | rifle | attack | variation 4
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b9a1
+  Frames: 17550 - 17595  (46 frames)
+  Description: ranged | heavy carbine | attack | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b9a2
+  Frames: 17660 - 17705  (46 frames)
+  Description: ranged | heavy carbine | attack | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: b9a4
+  Frames: 20020 - 20065  (46 frames)
+  Description: ranged | heavy carbine | attack | variation 4
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: bow
+  Frames: 2630 - 2689  (60 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: c10a1
+  Frames: 21560 - 21604  (45 frames)
+  Description: melee / complex melee | unarmed complex, K2 only | attack | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@21583
+
+Animation: c10a2
+  Frames: 21670 - 21714  (45 frames)
+  Description: melee / complex melee | unarmed complex, K2 only | attack | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@21698
+
+Animation: c10a3
+  Frames: 21780 - 21824  (45 frames)
+  Description: melee / complex melee | unarmed complex, K2 only | attack | variation 3
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@21815
+
+Animation: c10a4
+  Frames: 21890 - 21934  (45 frames)
+  Description: melee / complex melee | unarmed complex, K2 only | attack | variation 4
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@21925
+
+Animation: c10a5
+  Frames: 22000 - 22044  (45 frames)
+  Description: melee / complex melee | unarmed complex, K2 only | attack | variation 5
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@22023
+
+Animation: c10n1
+  Frames: 21420 - 21427  (8 frames)
+  Description: melee / complex melee | unarmed complex, K2 only | deflection | variation 1
+  Root: KA_Male02
+  Transition Time: 0.125
+  Events: -
+
+Animation: c10n2
+  Frames: 21490 - 21497  (8 frames)
+  Description: melee / complex melee | unarmed complex, K2 only | deflection | variation 2
+  Root: KA_Male02
+  Transition Time: 0.125
+  Events: -
+
+Animation: c2a1
+  Frames: 10410 - 10454  (45 frames)
+  Description: melee / complex melee | single saber | attack | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingshort@10418, Swinglong@10430, Swingshort@10446, Hit@10447
+
+Animation: c2a2
+  Frames: 10520 - 10564  (45 frames)
+  Description: melee / complex melee | single saber | attack | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingshort@10530, Swingtwirl@10540, Swinglong@10548, Hit@10549
+
+Animation: c2a3
+  Frames: 10630 - 10674  (45 frames)
+  Description: melee / complex melee | single saber | attack | variation 3
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingshort@10639, Swingshort@10650, Hit@10666, Swingshort@10666
+
+Animation: c2a4
+  Frames: 10740 - 10784  (45 frames)
+  Description: melee / complex melee | single saber | attack | variation 4
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingshort@10749, Hit@10765
+
+Animation: c2a5
+  Frames: 10850 - 10894  (45 frames)
+  Description: melee / complex melee | single saber | attack | variation 5
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingshort@10857, Swingtwirl@10869, Hit@10874
+
+Animation: c2n1
+  Frames: 10960 - 10967  (8 frames)
+  Description: melee / complex melee | single saber | deflection | variation 1
+  Root: KA_Male02
+  Transition Time: 0.125
+  Events: -
+
+Animation: c2n2
+  Frames: 11030 - 11037  (8 frames)
+  Description: melee / complex melee | single saber | deflection | variation 2
+  Root: KA_Male02
+  Transition Time: 0.125
+  Events: -
+
+Animation: castout1
+  Frames: 7820 - 7830  (11 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: castout2
+  Frames: 7980 - 7990  (11 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: castout3
+  Frames: 8150 - 8160  (11 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: castoutlp1
+  Frames: 7890 - 7918  (29 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: castoutlp2
+  Frames: 8050 - 8085  (36 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: castoutlp3
+  Frames: 8220 - 8249  (30 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: catchsab
+  Frames: 8590 - 8605  (16 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: choke
+  Frames: 8670 - 8714  (45 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: CUT015
+  Frames: 27630 - 27672  (43 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: CUT016L
+  Frames: 27740 - 27796  (57 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: CUT017
+  Frames: 27860 - 27899  (40 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: CUT021
+  Frames: 28060 - 28177  (118 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_footstep@28075, snd_footstep@28090, snd_footstep@28107
+
+Animation: CUT022L
+  Frames: 28240 - 28300  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: CUT023
+  Frames: 28360 - 28460  (101 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_footstep@28402, snd_footstep@28422, snd_footstep@28435
+
+Animation: dance
+  Frames: 7110 - 7172  (63 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: dance1
+  Frames: 7240 - 7290  (51 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: dead
+  Frames: 9540 - 9541  (2 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: dead1
+  Frames: 9740 - 9741  (2 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: dead3
+  Frames: 21050 - 21051  (2 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: deflect
+  Frames: 25190 - 25197  (8 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: die
+  Frames: 9390 - 9479  (90 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_hitground@9453
+
+Animation: die1
+  Frames: 9610 - 9675  (66 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_hitground@9662
+
+Animation: die3
+  Frames: 20980 - 20985  (6 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: disablemine
+  Frames: 6790 - 6927  (138 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: diveroll
+  Frames: 27960 - 27993  (34 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: downpoint
+  Frames: 26630 - 26660  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: emotions
+  Frames: 15510 - 15525  (16 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: equip
+  Frames: 5930 - 5960  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.5
+  Events: draw_weapon@5947
+
+Animation: evil
+  Frames: 16430 - 16510  (81 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: f10a1a
+  Frames: 22600 - 22644  (45 frames)
+  Description: feat / special melee | unarmed complex, K2 only | attack | variation 1a
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@22627
+
+Animation: f10a1b
+  Frames: 24250 - 24294  (45 frames)
+  Description: feat / special melee | unarmed complex, K2 only | attack | variation 1b
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@24278
+
+Animation: f10a1c
+  Frames: 24360 - 24404  (45 frames)
+  Description: feat / special melee | unarmed complex, K2 only | attack | variation 1c
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@24386
+
+Animation: f10a2a
+  Frames: 22710 - 22754  (45 frames)
+  Description: feat / special melee | unarmed complex, K2 only | attack | variation 2a
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@22735
+
+Animation: f10a2b
+  Frames: 24470 - 24514  (45 frames)
+  Description: feat / special melee | unarmed complex, K2 only | attack | variation 2b
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@24499
+
+Animation: f10a2c
+  Frames: 24580 - 24624  (45 frames)
+  Description: feat / special melee | unarmed complex, K2 only | attack | variation 2c
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: f10a3a
+  Frames: 24800 - 24844  (45 frames)
+  Description: feat / special melee | unarmed complex, K2 only | attack | variation 3a
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@24825
+
+Animation: f10a3b
+  Frames: 22820 - 22864  (45 frames)
+  Description: feat / special melee | unarmed complex, K2 only | attack | variation 3b
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@22846
+
+Animation: f10a3c
+  Frames: 24690 - 24734  (45 frames)
+  Description: feat / special melee | unarmed complex, K2 only | attack | variation 3c
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@24715
+
+Animation: f2a1b
+  Frames: 23260 - 23304  (45 frames)
+  Description: feat / special melee | single saber | attack | variation 1b
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Clash@23267, Swingshort@23287, Hit@23288, Swingtwirl@23290
+
+Animation: f2a1c
+  Frames: 23590 - 23634  (45 frames)
+  Description: feat / special melee | single saber | attack | variation 1c
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Clash@23597, Swingshort@23606, Swinglong@23614, Hit@23616
+
+Animation: f2a2b
+  Frames: 23370 - 23414  (45 frames)
+  Description: feat / special melee | single saber | attack | variation 2b
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swinglong@23373, Swinglong@23385, Swingshort@23387, Swinglong@23396, Hit@23399, Swingtwirl@23402
+
+Animation: f2a2c
+  Frames: 23700 - 23744  (45 frames)
+  Description: feat / special melee | single saber | attack | variation 2c
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swinglong@23704, Swinglong@23716, Hit@23719, Swingshort@23722
+
+Animation: f2a3a
+  Frames: 11100 - 11144  (45 frames)
+  Description: feat / special melee | single saber | attack | variation 3a
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingtwirl@11111, Swinglong@11111, Swinglong@11125, Swingshort@11125, Hit@11126
+
+Animation: f2a3b
+  Frames: 23480 - 23524  (45 frames)
+  Description: feat / special melee | single saber | attack | variation 3b
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swinglong@23489, Swingshort@23504, Hit@23506
+
+Animation: f2a3c
+  Frames: 23810 - 23854  (45 frames)
+  Description: feat / special melee | single saber | attack | variation 3c
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingshort@23813, Swinglong@23821, Swingshort@23835, Hit@23836
+
+Animation: f2a4
+  Frames: 20870 - 20915  (46 frames)
+  Description: feat / special melee | single saber | attack | variation 4
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@20896
+
+Animation: f5d1
+  Frames: 13440 - 13484  (45 frames)
+  Description: feat / special melee | single blaster | damage / hit reaction | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: f5d2
+  Frames: 13550 - 13594  (45 frames)
+  Description: feat / special melee | single blaster | damage / hit reaction | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: f5d3
+  Frames: 13660 - 13704  (45 frames)
+  Description: feat / special melee | single blaster | damage / hit reaction | variation 3
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: f5p1
+  Frames: 13110 - 13154  (45 frames)
+  Description: feat / special melee | single blaster | parry | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: f5p2
+  Frames: 13220 - 13264  (45 frames)
+  Description: feat / special melee | single blaster | parry | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: f5p3
+  Frames: 13330 - 13374  (45 frames)
+  Description: feat / special melee | single blaster | parry | variation 3
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: fblock
+  Frames: 18280 - 18287  (8 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: flirt
+  Frames: 5200 - 5232  (33 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: forcerage
+  Frames: 25260 - 25310  (51 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g10a1
+  Frames: 22380 - 22424  (45 frames)
+  Description: generic | unarmed complex, K2 only | attack | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@22395
+
+Animation: g10a3
+  Frames: 23920 - 23964  (45 frames)
+  Description: generic | unarmed complex, K2 only | attack | variation 3
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@23935
+
+Animation: g10a4
+  Frames: 24030 - 24074  (45 frames)
+  Description: generic | unarmed complex, K2 only | attack | variation 4
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@24045
+
+Animation: g10a5
+  Frames: 24140 - 24184  (45 frames)
+  Description: generic | unarmed complex, K2 only | attack | variation 5
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@24155
+
+Animation: g10d1
+  Frames: 22310 - 22319  (10 frames)
+  Description: generic | unarmed complex, K2 only | damage / hit reaction | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g10r1
+  Frames: 22220 - 22250  (31 frames)
+  Description: generic | unarmed complex, K2 only | ready | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g10w1
+  Frames: 22110 - 22155  (46 frames)
+  Description: generic | unarmed complex, K2 only | wield | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g1a1
+  Frames: 9810 - 9854  (45 frames)
+  Description: generic | stun baton | attack | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@9826
+
+Animation: g1a2
+  Frames: 9920 - 9964  (45 frames)
+  Description: generic | stun baton | attack | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Hit@9936
+
+Animation: g1d1
+  Frames: 10030 - 10039  (10 frames)
+  Description: generic | stun baton | damage / hit reaction | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g1g1
+  Frames: 10100 - 10144  (45 frames)
+  Description: generic | stun baton | dodge | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g1r1
+  Frames: 10320 - 10350  (31 frames)
+  Description: generic | stun baton | ready | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g1w1
+  Frames: 10210 - 10255  (46 frames)
+  Description: generic | stun baton | wield | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: draw_weapon@10218
+
+Animation: g1x1
+  Frames: 9090 - 9113  (24 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g1y1
+  Frames: 9180 - 9212  (33 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_hitground@9184
+
+Animation: g1z1
+  Frames: 9280 - 9324  (45 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g2a1
+  Frames: 11210 - 11254  (45 frames)
+  Description: generic | single saber | attack | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swinglong@11221, Hit@11225
+
+Animation: g2a2
+  Frames: 11320 - 11364  (45 frames)
+  Description: generic | single saber | attack | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swinglong@11331, Hit@11335
+
+Animation: g2a3
+  Frames: 22930 - 22974  (45 frames)
+  Description: generic | single saber | attack | variation 3
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingshort@22931, Swinglong@22945, Swingshort@22948, Hit@22950, Swingshort@22967
+
+Animation: g2a4
+  Frames: 23040 - 23084  (45 frames)
+  Description: generic | single saber | attack | variation 4
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingshort@23045, Swinglong@23053, Hit@23055, Swingtwirl@23073
+
+Animation: g2a5
+  Frames: 23150 - 23194  (45 frames)
+  Description: generic | single saber | attack | variation 5
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingshort@23162, Hit@23165, Swingshort@23175, Swingtwirl@23179
+
+Animation: g2d1
+  Frames: 11650 - 11659  (10 frames)
+  Description: generic | single saber | damage / hit reaction | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g2f1
+  Frames: 21120 - 21165  (46 frames)
+  Description: generic | single saber | unused / unclear | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingshort@21133, Swingshort@21144
+
+Animation: g2g1
+  Frames: 11540 - 11584  (45 frames)
+  Description: generic | single saber | dodge | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g2r1
+  Frames: 11720 - 11764  (45 frames)
+  Description: generic | single saber | ready | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g2w1
+  Frames: 11430 - 11475  (46 frames)
+  Description: generic | single saber | wield | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: draw_weapon@11438, Swingshort@11443, Swingshort@11453
+
+Animation: g5d1
+  Frames: 12710 - 12719  (10 frames)
+  Description: generic | single blaster | damage / hit reaction | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g5g1
+  Frames: 12780 - 12824  (45 frames)
+  Description: generic | single blaster | dodge | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g5r1
+  Frames: 13000 - 13044  (45 frames)
+  Description: generic | single blaster | ready | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g5w1
+  Frames: 12890 - 12935  (46 frames)
+  Description: generic | single blaster | wield | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: draw_weapon@12898
+
+Animation: g6d1
+  Frames: 13990 - 14000  (11 frames)
+  Description: generic | dual blasters | damage / hit reaction | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g6f1
+  Frames: 25370 - 25415  (46 frames)
+  Description: generic | dual blasters | unused / unclear | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g6g1
+  Frames: 14060 - 14105  (46 frames)
+  Description: generic | dual blasters | dodge | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g6r1
+  Frames: 14280 - 14339  (60 frames)
+  Description: generic | dual blasters | ready | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g6w1
+  Frames: 14170 - 14215  (46 frames)
+  Description: generic | dual blasters | wield | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: draw_weapon@14175
+
+Animation: g7d1
+  Frames: 14620 - 14629  (10 frames)
+  Description: generic | rifle | damage / hit reaction | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g7g1
+  Frames: 14690 - 14734  (45 frames)
+  Description: generic | rifle | dodge | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g7r1
+  Frames: 14910 - 14955  (46 frames)
+  Description: generic | rifle | ready | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g7w1
+  Frames: 14800 - 14845  (46 frames)
+  Description: generic | rifle | wield | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: draw_weapon@14801
+
+Animation: g8a1
+  Frames: 15130 - 15175  (46 frames)
+  Description: generic | natural attack / unarmed | attack | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingshort@15143, Hit@15145
+
+Animation: g8a2
+  Frames: 15020 - 15065  (46 frames)
+  Description: generic | natural attack / unarmed | attack | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingshort@15034, Hit@15035
+
+Animation: g8d1
+  Frames: 15330 - 15339  (10 frames)
+  Description: generic | natural attack / unarmed | damage / hit reaction | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g8g1
+  Frames: 15400 - 15445  (46 frames)
+  Description: generic | natural attack / unarmed | dodge | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g8r1
+  Frames: 15240 - 15270  (31 frames)
+  Description: generic | natural attack / unarmed | ready | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g9a3
+  Frames: 18170 - 18215  (46 frames)
+  Description: generic | heavy carbine | attack | variation 3
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g9d1
+  Frames: 17770 - 17779  (10 frames)
+  Description: generic | heavy carbine | damage / hit reaction | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g9f1
+  Frames: 25480 - 25525  (46 frames)
+  Description: generic | heavy carbine | unused / unclear | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g9g1
+  Frames: 17840 - 17884  (45 frames)
+  Description: generic | heavy carbine | dodge | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g9r1
+  Frames: 18060 - 18105  (46 frames)
+  Description: generic | heavy carbine | ready | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: g9w1
+  Frames: 17950 - 17995  (46 frames)
+  Description: generic | heavy carbine | wield | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: draw_weapon@17951
+
+Animation: getfromgnd
+  Frames: 6020 - 6085  (66 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: getfromtbl
+  Frames: 6150 - 6189  (40 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: getupdead
+  Frames: 19360 - 19450  (91 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: getupdead1
+  Frames: 19510 - 19600  (91 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: good
+  Frames: 16030 - 16130  (101 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: greeting
+  Frames: 5090 - 5134  (45 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: horror
+  Frames: 8780 - 8807  (28 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: hturnl
+  Frames: 17410 - 17490  (81 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.75
+  Events: -
+
+Animation: hturnr
+  Frames: 17270 - 17350  (81 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.75
+  Events: -
+
+Animation: inject
+  Frames: 5730 - 5775  (46 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.5
+  Events: -
+
+Animation: kneel
+  Frames: 3050 - 3139  (90 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: listen
+  Frames: 2070 - 2570  (501 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: listeninj
+  Frames: 19840 - 19959  (120 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.75
+  Events: -
+
+Animation: m10d2
+  Frames: 22490 - 22534  (45 frames)
+  Description: monster melee | unarmed complex, K2 only | damage / hit reaction | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: m2a1
+  Frames: 11830 - 11874  (45 frames)
+  Description: monster melee | single saber | attack | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingshort@11840, Swingshort@11854, Hit@11856
+
+Animation: m2a2
+  Frames: 11940 - 11984  (45 frames)
+  Description: monster melee | single saber | attack | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: Swingshort@11951, Swingshort@11961, Hit@11962
+
+Animation: m2d1
+  Frames: 12270 - 12314  (45 frames)
+  Description: monster melee | single saber | damage / hit reaction | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: m2d2
+  Frames: 12380 - 12424  (45 frames)
+  Description: monster melee | single saber | damage / hit reaction | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: m2g1
+  Frames: 12050 - 12094  (45 frames)
+  Description: monster melee | single saber | dodge | variation 1
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: m2g2
+  Frames: 12160 - 12204  (45 frames)
+  Description: monster melee | single saber | dodge | variation 2
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: meditate
+  Frames: 3200 - 3249  (50 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: neutral
+  Frames: 16190 - 16370  (181 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: nodno
+  Frames: 25770 - 25815  (46 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: nodyes
+  Frames: 25660 - 25705  (46 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: paralyzed
+  Frames: 16680 - 16681  (2 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: pause1
+  Frames: 150 - 350  (201 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: pause2
+  Frames: 410 - 910  (501 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: pause3
+  Frames: 18350 - 18962  (613 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.75
+  Events: -
+
+Animation: pausebrd
+  Frames: 1430 - 1509  (80 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: pauseinj
+  Frames: 970 - 1089  (120 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: pausepsn
+  Frames: 1680 - 1795  (116 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: pausesh
+  Frames: 1310 - 1369  (60 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: pausestl
+  Frames: 1150 - 1241  (92 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: pausetrd
+  Frames: 1570 - 1619  (50 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: persuade
+  Frames: 8310 - 8354  (45 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: point
+  Frames: 25880 - 25940  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: pointdown
+  Frames: 26090 - 26150  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: pointloop
+  Frames: 26000 - 26030  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: prone
+  Frames: 16750 - 16809  (60 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: rolleyes
+  Frames: 25060 - 25128  (69 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: run
+  Frames: 26720 - 26742  (23 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_footstep@26727, snd_footstep@26738
+
+Animation: runds
+  Frames: 26990 - 27012  (23 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_footstep@26997, snd_footstep@27008
+
+Animation: runinj
+  Frames: 21230 - 21254  (25 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_footstep@21232, snd_footstep@21243
+
+Animation: runrf
+  Frames: 27080 - 27102  (23 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_footstep@27087, snd_footstep@27098
+
+Animation: runss
+  Frames: 26900 - 26922  (23 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_footstep@26907, snd_footstep@26918
+
+Animation: runst
+  Frames: 26810 - 26832  (23 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_footstep@26817, snd_footstep@26828
+
+Animation: salute
+  Frames: 1860 - 1909  (50 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: scanning
+  Frames: 26210 - 26363  (154 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: setmine
+  Frames: 6990 - 7050  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: shrug
+  Frames: 26430 - 26479  (50 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: shrug2
+  Frames: 27170 - 27195  (26 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: sitdown
+  Frames: 2750 - 2781  (32 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: sleep
+  Frames: 8950 - 9029  (80 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: spasm
+  Frames: 15590 - 15634  (45 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: standstill
+  Frames: 25590 - 25597  (8 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: standup
+  Frames: 2960 - 2990  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.5
+  Events: -
+
+Animation: stealth
+  Frames: 60 - 90  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: snd_footstep@64, snd_footstep@80
+
+Animation: talk
+  Frames: 5010 - 5025  (16 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.0
+  Events: -
+
+Animation: talkinj
+  Frames: 19660 - 19779  (120 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.75
+  Events: -
+
+Animation: talkprone
+  Frames: 28520 - 28610  (91 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: talkpronedie
+  Frames: 28670 - 28738  (69 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: taunt
+  Frames: 5300 - 5342  (43 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: throwgren
+  Frames: 7710 - 7755  (46 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: throwgren1
+  Frames: 16570 - 16615  (46 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: throwsab
+  Frames: 8420 - 8437  (18 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: throwsablp
+  Frames: 8500 - 8527  (28 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: tlkforce
+  Frames: 3870 - 4096  (227 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: tlklaugh
+  Frames: 4750 - 4943  (194 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: tlknorm
+  Frames: 3310 - 3810  (501 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: tlkplead
+  Frames: 4160 - 4296  (137 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: tlksad
+  Frames: 4360 - 4684  (325 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: touchheart
+  Frames: 24910 - 24993  (84 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: treatinj
+  Frames: 5410 - 5559  (150 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: treatinjlp
+  Frames: 5620 - 5670  (51 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: turnleft
+  Frames: 20130 - 20160  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: turnright
+  Frames: 20220 - 20250  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: unlockcntr
+  Frames: 6680 - 6730  (51 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: unlockdr
+  Frames: 6570 - 6615  (46 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: uppoint
+  Frames: 26540 - 26564  (25 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: -
+
+Animation: usecomp
+  Frames: 6250 - 6400  (151 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: usecomplp
+  Frames: 6460 - 6507  (48 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: victory
+  Frames: 1970 - 2010  (41 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+Animation: walk
+  Frames: 20310 - 20342  (33 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_footstep@20320, snd_footstep@20336
+
+Animation: walkds
+  Frames: 16970 - 17002  (33 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_footstep@16980, snd_footstep@16996
+
+Animation: walkinj
+  Frames: 21320 - 21352  (33 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_footstep@21323, snd_footstep@21333
+
+Animation: walkrf
+  Frames: 17170 - 17202  (33 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_footstep@17177, snd_footstep@17195
+
+Animation: walkss
+  Frames: 16870 - 16902  (33 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_footstep@16880, snd_footstep@16896
+
+Animation: walkst
+  Frames: 17070 - 17102  (33 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 0.25
+  Events: snd_footstep@17080, snd_footstep@17096
+
+Animation: whirlwind
+  Frames: 8870 - 8889  (20 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male02
+  Transition Time: 1.0
+  Events: -
+
+
