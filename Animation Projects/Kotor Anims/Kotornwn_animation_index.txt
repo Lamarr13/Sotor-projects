@@ -1,1659 +1,5505 @@
-NEVERBLENDER / AURORA ANIMATION INDEX
-================================================================================
-Generated: 2026-06-24 01:40:04
+NEVERBLENDER / AURORA ANIMATION INDEX - ALL MODELS
+==========================================================================================
+Generated: 2026-06-24 19:22:41
 Blender file: F:\Data\NWN\SOTOR\DEV\Blender Files\ANIMATIONS\KotorAnimsWIP.blend
-Objects exported: 1
+Export selected only: False
+Animated models found: 6
 
-KOTOR COMBAT ANIMATION CODE LEGEND
---------------------------------------------------------------------------------
+KOTOR COMBAT ANIMATION NAME LEGEND
+------------------------------------------------------------------------------------------
 Format: [category letter][weapon number][action letter][variation]
-Example: f2d2a = feat / single saber / damage / variation 2a
+Example: f2d2a = feat / special combat | single lightsaber | damage / hit reaction | variation 2a
 
-Category letter:
-  b = ranged
-  c = melee / complex melee
-  f = feat / special melee
-  g = generic
-  m = monster melee
+Category codes:
+  b = blaster / ranged
+  c = combat / melee
+  f = feat / special combat
+  g = general combat
+  m = monster / creature combat
 
-Weapon number:
-  0 = N/A / droid
-  1 = stun baton
-  2 = single saber
-  3 = two-handed saber / double-bladed saber
-  4 = dual sabers
-  5 = single blaster
-  6 = dual blasters
+Weapon codes:
+  0 = none / creature / droid
+  1 = stun baton / melee weapon
+  2 = single lightsaber
+  3 = double-bladed lightsaber
+  4 = dual lightsabers
+  5 = single blaster pistol
+  6 = dual blaster pistols
   7 = rifle
-  8 = natural attack / unarmed
-  9 = heavy carbine
-  10 = unarmed complex, K2 only
-  11 = wrist launcher, K2 only
+  8 = unarmed / natural attack
+  9 = heavy weapon
+  10 = unarmed complex, KOTOR 2
+  11 = wrist launcher, KOTOR 2
 
-Action letter:
+Action codes:
   a = attack
   d = damage / hit reaction
-  f = unused / unclear
-  g = dodge
-  n = deflection
+  f = unclear / unused
+  g = dodge / evade
+  n = deflect
   p = parry
-  r = ready
-  w = wield
+  r = ready / combat idle
+  w = wield / draw weapon
 
-================================================================================
+==========================================================================================
+
+MODEL: KA_Female01
+------------------------------------------------------------------------------------------
+Animation count: 76
+
+Animation: c3d1
+  Frames: 2310 - 2354  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | damage / hit reaction | variation 1
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@2319, HitParry@2320, contact@2331, HitParry@2332, contact@2348
+
+Animation: c3d2
+  Frames: 2420 - 2464  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | damage / hit reaction | variation 2
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@2430, contact@2449
+
+Animation: c3d3
+  Frames: 2530 - 2574  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | damage / hit reaction | variation 3
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@2537, contact@2539, HitParry@2540, Swingshort@2548, contact@2551, HitParry@2552, contact@2566
+
+Animation: c3d4
+  Frames: 2640 - 2684  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | damage / hit reaction | variation 4
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@2650, Clash@2651, Clash@2658, Clash@2665, contact@2666
+
+Animation: c3d5
+  Frames: 2750 - 2794  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | damage / hit reaction | variation 5
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@2755, contact@2759, HitParry@2760
+
+Animation: c3p1
+  Frames: 1760 - 1804  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | parry | variation 1
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@1767, contact@1769, HitParry@1769, Swinglong@1776, contact@1781, HitParry@1781, Swinglong@1794, contact@1797, HitParry@1797
+
+Animation: c3p2
+  Frames: 1870 - 1914  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | parry | variation 2
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1879, Swingshort@1894, contact@1899, HitParry@1899
+
+Animation: c3p3
+  Frames: 1980 - 2024  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | parry | variation 3
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1986, contact@1989, HitParry@1990, Swinglong@1998, contact@2001, HitParry@2002, Swingshort@2015, contact@2016, HitParry@2017
+
+Animation: c3p4
+  Frames: 2090 - 2134  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | parry | variation 4
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@2100, Clash@2100, Clash@2107, Clash@2115, contact@2116
+
+Animation: c3p5
+  Frames: 2200 - 2244  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | parry | variation 5
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@2209, HitParry@2209
+
+Animation: c4d1
+  Frames: 4070 - 4114  (45 frames)
+  Description: combat / melee | dual lightsabers | damage / hit reaction | variation 1
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@4079, HitParry@4079, Swingtwirl@4083, contact@4091, HitParry@4092, contact@4107
+
+Animation: c4d2
+  Frames: 4180 - 4224  (45 frames)
+  Description: combat / melee | dual lightsabers | damage / hit reaction | variation 2
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@4209
+
+Animation: c4d3
+  Frames: 4290 - 4334  (45 frames)
+  Description: combat / melee | dual lightsabers | damage / hit reaction | variation 3
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@4299, HitParry@4299, contact@4311, HitParry@4311, Swinglong@4324, contact@4326
+
+Animation: c4d4
+  Frames: 4400 - 4444  (45 frames)
+  Description: combat / melee | dual lightsabers | damage / hit reaction | variation 4
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@4410, Clash@4410, Clash@4417, contact@4425, Clash@4426
+
+Animation: c4d5
+  Frames: 4510 - 4554  (45 frames)
+  Description: combat / melee | dual lightsabers | damage / hit reaction | variation 5
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@4519, HitParry@4520, Swinglong@4537
+
+Animation: c4p1
+  Frames: 3520 - 3564  (45 frames)
+  Description: combat / melee | dual lightsabers | parry | variation 1
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@3529, HitParry@3529, Swingtwirl@3533, contact@3541, HitParry@3542, contact@3557, HitParry@3558
+
+Animation: c4p2
+  Frames: 3630 - 3674  (45 frames)
+  Description: combat / melee | dual lightsabers | parry | variation 2
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@3658, HitParry@3658
+
+Animation: c4p3
+  Frames: 3740 - 3784  (45 frames)
+  Description: combat / melee | dual lightsabers | parry | variation 3
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@3749, HitParry@3749, contact@3761, HitParry@3761, contact@3776, HitParry@3776
+
+Animation: c4p4
+  Frames: 3850 - 3894  (45 frames)
+  Description: combat / melee | dual lightsabers | parry | variation 4
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@3860, Clash@3860, Clash@3868, Clash@3876, contact@3879
+
+Animation: c4p5
+  Frames: 3960 - 4004  (45 frames)
+  Description: combat / melee | dual lightsabers | parry | variation 5
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@3969, HitParry@3970, Swingshort@3989, Swinglong@3997
+
+Animation: crushdamage
+  Frames: 8030 - 8090  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: cut032L
+  Frames: 8360 - 8420  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f2d1a
+  Frames: 280 - 324  (45 frames)
+  Description: feat / special combat | single lightsaber | damage / hit reaction | variation 1a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingtwirl@281, Clash@290, Clash@298, Hit@307
+
+Animation: f2d2a
+  Frames: 60 - 104  (45 frames)
+  Description: feat / special combat | single lightsaber | damage / hit reaction | variation 2a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Clash@74, contact@76, HitParry@76, Clash@84, Hit@84
+
+Animation: f2p2a
+  Frames: 170 - 214  (45 frames)
+  Description: feat / special combat | single lightsaber | parry | variation 2a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@186, HitParry@186, contact@193, HitParry@193
+
+Animation: f3d1a
+  Frames: 3190 - 3234  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 1a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@3195, contact@3200, Swinglong@3209
+
+Animation: f3d1b
+  Frames: 6710 - 6754  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 1b
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@6713, contact@6717
+
+Animation: f3d1c
+  Frames: 6930 - 6974  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 1c
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@6933, contact@6937, Clash@6937
+
+Animation: f3d2a
+  Frames: 3300 - 3344  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 2a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@3315, HitParry@3316, contact@3323, Hit@3324
+
+Animation: f3d2b
+  Frames: 7150 - 7194  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 2b
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@7155, HitParry@7155, contact@7167, HitParry@7167, Hit@7179
+
+Animation: f3d2c
+  Frames: 7480 - 7524  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 2c
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f3d3a
+  Frames: 3410 - 3454  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 3a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@3436, Hit@3436
+
+Animation: f3d3b
+  Frames: 7590 - 7634  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 3b
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@7616, Hit@7616
+
+Animation: f3d3c
+  Frames: 7810 - 7854  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 3c
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@7836, Hit@7836
+
+Animation: f3p1a
+  Frames: 390 - 434  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 1a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Clash@400, Clash@407
+
+Animation: f3p1a
+  Frames: 2860 - 2904  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 1a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@2869
+
+Animation: f3p1b
+  Frames: 6820 - 6864  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 1b
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@6823, contact@6827
+
+Animation: f3p1c
+  Frames: 7040 - 7084  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 1c
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@7043, contact@7047, Clash@7047, contact@7066, HitParry@7066
+
+Animation: f3p2a
+  Frames: 2970 - 3014  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 2a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@2975, contact@2985, HitParry@2986, contact@2993, HitParry@2994
+
+Animation: f3p2b
+  Frames: 7260 - 7304  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 2b
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@7265, HitParry@7265, contact@7277, HitParry@7277, contact@7289, Hit@7289, HitParry@7289
+
+Animation: f3p2c
+  Frames: 7370 - 7414  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 2c
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f3p3a
+  Frames: 3080 - 3124  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 3a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@3105, Swinglong@3119
+
+Animation: f3p3b
+  Frames: 7700 - 7744  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 3b
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@7725, Swinglong@7739
+
+Animation: f3p3c
+  Frames: 7920 - 7964  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 3c
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@7945, Swinglong@7959
+
+Animation: f4d1a
+  Frames: 4950 - 4994  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 1a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@4954, contact@4960, Hit@4978
+
+Animation: f4d1b
+  Frames: 5940 - 5984  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 1b
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@5944, contact@5947, Clash@5947
+
+Animation: f4d1c
+  Frames: 5280 - 5324  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 1c
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@5283, contact@5287, Clash@5287, HitParry@5287, Swinglong@5314, Swingshort@5315
+
+Animation: f4d2a
+  Frames: 5060 - 5104  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 2a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: HitParry@5075, contact@5076, contact@5083, Hit@5084
+
+Animation: f4d2b
+  Frames: 6160 - 6204  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 2b
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@6174, contact@6177, HitParry@6177
+
+Animation: f4d2c
+  Frames: 5500 - 5544  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 2c
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f4d3a
+  Frames: 5170 - 5214  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 3a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@5196, Hit@5196
+
+Animation: f4d3b
+  Frames: 6380 - 6424  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 3b
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@6405
+
+Animation: f4d3c
+  Frames: 5720 - 5764  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 3c
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@5746
+
+Animation: f4p1a
+  Frames: 4620 - 4664  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 1a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@4625, contact@4630
+
+Animation: f4p1b
+  Frames: 6050 - 6094  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 1b
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@6054, contact@6057, Clash@6057, HitParry@6057
+
+Animation: f4p1c
+  Frames: 5390 - 5434  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 1c
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@5393, contact@5397, Clash@5397, Swinglong@5424, Swingshort@5425
+
+Animation: f4p2a
+  Frames: 4730 - 4774  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 2a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@4745, HitParry@4745, contact@4754, HitParry@4754
+
+Animation: f4p2b
+  Frames: 6270 - 6314  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 2b
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@6284, contact@6287, HitParry@6287, Swingshort@6297, contact@6299, HitParry@6299
+
+Animation: f4p2c
+  Frames: 5610 - 5654  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 2c
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f4p3a
+  Frames: 4840 - 4884  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 3a
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@4867
+
+Animation: f4p3b
+  Frames: 6490 - 6534  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 3b
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f4p3c
+  Frames: 5830 - 5874  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 3c
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g3a3
+  Frames: 6600 - 6644  (45 frames)
+  Description: general combat | double-bladed lightsaber | attack | variation 3
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@6613, Hit@6615, Swingtwirl@6618
+
+Animation: g3d1
+  Frames: 1130 - 1143  (14 frames)
+  Description: general combat | double-bladed lightsaber | damage / hit reaction | variation 1
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g3g1
+  Frames: 1210 - 1255  (46 frames)
+  Description: general combat | double-bladed lightsaber | dodge / evade | variation 1
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1221
+
+Animation: g4d1
+  Frames: 500 - 513  (14 frames)
+  Description: general combat | dual lightsabers | damage / hit reaction | variation 1
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g4g1
+  Frames: 580 - 625  (46 frames)
+  Description: general combat | dual lightsabers | dodge / evade | variation 1
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: lhandchop
+  Frames: 8150 - 8300  (151 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: m3d1
+  Frames: 1540 - 1585  (46 frames)
+  Description: monster / creature combat | double-bladed lightsaber | damage / hit reaction | variation 1
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@1559
+
+Animation: m3d2
+  Frames: 1650 - 1695  (46 frames)
+  Description: monster / creature combat | double-bladed lightsaber | damage / hit reaction | variation 2
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1654
+
+Animation: m3g1
+  Frames: 1320 - 1365  (46 frames)
+  Description: monster / creature combat | double-bladed lightsaber | dodge / evade | variation 1
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1334
+
+Animation: m3g2
+  Frames: 1430 - 1475  (46 frames)
+  Description: monster / creature combat | double-bladed lightsaber | dodge / evade | variation 2
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1439
+
+Animation: m4d1
+  Frames: 910 - 955  (46 frames)
+  Description: monster / creature combat | dual lightsabers | damage / hit reaction | variation 1
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: m4d2
+  Frames: 1020 - 1065  (46 frames)
+  Description: monster / creature combat | dual lightsabers | damage / hit reaction | variation 2
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@1025
+
+Animation: m4g1
+  Frames: 690 - 735  (46 frames)
+  Description: monster / creature combat | dual lightsabers | dodge / evade | variation 1
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@708, Swinglong@719
+
+Animation: m4g2
+  Frames: 800 - 845  (46 frames)
+  Description: monster / creature combat | dual lightsabers | dodge / evade | variation 2
+  Root: KA_Female01
+  Root Object: KA_Female01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@811
+
+
+MODEL: KA_Female02
+------------------------------------------------------------------------------------------
+Animation count: 88
+
+Animation: b11a1
+  Frames: 7370 - 7414  (45 frames)
+  Description: blaster / ranged | wrist launcher, KOTOR 2 | attack | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: b11a2
+  Frames: 7480 - 7524  (45 frames)
+  Description: blaster / ranged | wrist launcher, KOTOR 2 | attack | variation 2
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: b11a3
+  Frames: 7590 - 7634  (45 frames)
+  Description: blaster / ranged | wrist launcher, KOTOR 2 | attack | variation 3
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: b11a4
+  Frames: 7700 - 7744  (45 frames)
+  Description: blaster / ranged | wrist launcher, KOTOR 2 | attack | variation 4
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: b11d1
+  Frames: 8030 - 8040  (11 frames)
+  Description: blaster / ranged | wrist launcher, KOTOR 2 | damage / hit reaction | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: b11g1
+  Frames: 7810 - 7854  (45 frames)
+  Description: blaster / ranged | wrist launcher, KOTOR 2 | dodge / evade | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: b11r1
+  Frames: 8100 - 8150  (51 frames)
+  Description: blaster / ranged | wrist launcher, KOTOR 2 | ready / combat idle | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: b11w1
+  Frames: 7920 - 7964  (45 frames)
+  Description: blaster / ranged | wrist launcher, KOTOR 2 | wield / draw weapon | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: c2a6
+  Frames: 3840 - 3930  (91 frames)
+  Description: combat / melee | single lightsaber | attack | variation 6
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Hit@3853
+
+Animation: c3a1
+  Frames: 2080 - 2124  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | attack | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@2087, Swinglong@2097, Swinglong@2111, Hit@2117
+
+Animation: c3a2
+  Frames: 2190 - 2234  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | attack | variation 2
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@2199, Swinglong@2214, Swingshort@2217, Hit@2219
+
+Animation: c3a3
+  Frames: 2300 - 2344  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | attack | variation 3
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@2308, Swingshort@2320, Swingshort@2335, Hit@2336
+
+Animation: c3a4
+  Frames: 2410 - 2454  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | attack | variation 4
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@2419, Hit@2438
+
+Animation: c3a5
+  Frames: 2520 - 2564  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | attack | variation 5
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@2527, Swinglong@2541, Hit@2544
+
+Animation: c3a6
+  Frames: 4140 - 4230  (91 frames)
+  Description: combat / melee | double-bladed lightsaber | attack | variation 6
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Hit@4153
+
+Animation: c3n1
+  Frames: 1360 - 1367  (8 frames)
+  Description: combat / melee | double-bladed lightsaber | deflect | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.125
+  TTime: 0.125
+  Events: -
+
+Animation: c3n2
+  Frames: 1430 - 1437  (8 frames)
+  Description: combat / melee | double-bladed lightsaber | deflect | variation 2
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.125
+  TTime: 0.125
+  Events: -
+
+Animation: c4a1
+  Frames: 2960 - 3004  (45 frames)
+  Description: combat / melee | dual lightsabers | attack | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@2968, Clash@2969, Swinglong@2980, Hit@2982, Clash@2982, Swingtwirl@2986, Clash@2997, Swingshort@2997
+
+Animation: c4a2
+  Frames: 3070 - 3114  (45 frames)
+  Description: combat / melee | dual lightsabers | attack | variation 2
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@3078, Swingshort@3088, Hit@3099, Swingshort@3102
+
+Animation: c4a3
+  Frames: 3180 - 3224  (45 frames)
+  Description: combat / melee | dual lightsabers | attack | variation 3
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@3187, Clash@3189, Swinglong@3200, Clash@3201, Swingshort@3215, Hit@3216, Clash@3216
+
+Animation: c4a4
+  Frames: 3290 - 3334  (45 frames)
+  Description: combat / melee | dual lightsabers | attack | variation 4
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@3298, Swinglong@3311, Hit@3318
+
+Animation: c4a5
+  Frames: 3400 - 3444  (45 frames)
+  Description: combat / melee | dual lightsabers | attack | variation 5
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@3407, Clash@3409, Swinglong@3423, Hit@3424
+
+Animation: c4a6
+  Frames: 3990 - 4080  (91 frames)
+  Description: combat / melee | dual lightsabers | attack | variation 6
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Hit@4003
+
+Animation: c4n1
+  Frames: 1500 - 1507  (8 frames)
+  Description: combat / melee | dual lightsabers | deflect | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.125
+  TTime: 0.125
+  Events: -
+
+Animation: c4n2
+  Frames: 1570 - 1577  (8 frames)
+  Description: combat / melee | dual lightsabers | deflect | variation 2
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.125
+  TTime: 0.125
+  Events: -
+
+Animation: cut010L
+  Frames: 8310 - 8360  (51 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: cut011L
+  Frames: 8420 - 8460  (41 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: cut012
+  Frames: 8520 - 8580  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: cut013L
+  Frames: 8640 - 8680  (41 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: cut014
+  Frames: 8740 - 8980  (241 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: cut018
+  Frames: 9040 - 9080  (41 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: cut019L
+  Frames: 9140 - 9180  (41 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: cut020
+  Frames: 9240 - 9270  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f2a1a
+  Frames: 170 - 214  (45 frames)
+  Description: feat / special combat | single lightsaber | attack | variation 1a
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Clash@180, Clash@188, Swinglong@192, Hit@197
+
+Animation: f2a2a
+  Frames: 60 - 104  (45 frames)
+  Description: feat / special combat | single lightsaber | attack | variation 2a
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@63, Hit@66, Swingshort@73, Clash@74, Hit@76, Swingshort@81, Hit@84, Clash@84
+
+Animation: f3a1a
+  Frames: 2630 - 2674  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | attack | variation 1a
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@2649, Hit@2657, Swingtwirl@2660
+
+Animation: f3a1b
+  Frames: 5940 - 5984  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | attack | variation 1b
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Clash@5947, Swinglong@5966, Hit@5968
+
+Animation: f3a1c
+  Frames: 6050 - 6094  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | attack | variation 1c
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Clash@6057, Swinglong@6073, Hit@6076
+
+Animation: f3a2a
+  Frames: 2740 - 2784  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | attack | variation 2a
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@2745, Hit@2746, Hit@2756, Swingshort@2756, Hit@2763, Swingshort@2764, Swingtwirl@2768
+
+Animation: f3a2b
+  Frames: 6160 - 6204  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | attack | variation 2b
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@6162, Swinglong@6171, Swinglong@6184
+
+Animation: f3a2c
+  Frames: 6270 - 6314  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | attack | variation 2c
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingtwirl@6273, Hit@6277, Hit@6289, Swingtwirl@6289, Hit@6294
+
+Animation: f3a3a
+  Frames: 2850 - 2894  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | attack | variation 3a
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@2864, Swingshort@2870, Swinglong@2872, Swingshort@2875, Hit@2876
+
+Animation: f3a3b
+  Frames: 6380 - 6424  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | attack | variation 3b
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@6392, Swingtwirl@6396, Swingshort@6404, Hit@6406
+
+Animation: f3a3c
+  Frames: 6490 - 6534  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | attack | variation 3c
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingtwirl@6502, Hit@6516
+
+Animation: f3a4
+  Frames: 4400 - 4445  (46 frames)
+  Description: feat / special combat | double-bladed lightsaber | attack | variation 4
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Hit@4426
+
+Animation: f4a1a
+  Frames: 3510 - 3554  (45 frames)
+  Description: feat / special combat | dual lightsabers | attack | variation 1a
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Clash@3520, Clash@3527, Hit@3537, Swinglong@3537, Swingtwirl@3541
+
+Animation: f4a1b
+  Frames: 5390 - 5434  (45 frames)
+  Description: feat / special combat | dual lightsabers | attack | variation 1b
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Clash@5397, Swinglong@5414, Hit@5416, Swingshort@5416
+
+Animation: f4a1c
+  Frames: 5060 - 5104  (45 frames)
+  Description: feat / special combat | dual lightsabers | attack | variation 1c
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingtwirl@5066, Clash@5067, Swinglong@5082, Hit@5086
+
+Animation: f4a2a
+  Frames: 3620 - 3664  (45 frames)
+  Description: feat / special combat | dual lightsabers | attack | variation 2a
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@3625, Hit@3626, Swinglong@3633, Clash@3635, Hit@3636, Swingshort@3642, Hit@3643, Clash@3644
+
+Animation: f4a2b
+  Frames: 5500 - 5544  (45 frames)
+  Description: feat / special combat | dual lightsabers | attack | variation 2b
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@5503, Hit@5505, Swingshort@5515, Swinglong@5527, Hit@5529
+
+Animation: f4a2c
+  Frames: 5170 - 5214  (45 frames)
+  Description: feat / special combat | dual lightsabers | attack | variation 2c
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@5173, Hit@5177, Swingshort@5180, Swinglong@5186, Hit@5189, Swinglong@5190, Hit@5194
+
+Animation: f4a3a
+  Frames: 3730 - 3774  (45 frames)
+  Description: feat / special combat | dual lightsabers | attack | variation 3a
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingtwirl@3747, Hit@3756, Swingshort@3756
+
+Animation: f4a3b
+  Frames: 5610 - 5654  (45 frames)
+  Description: feat / special combat | dual lightsabers | attack | variation 3b
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingtwirl@5626, Swinglong@5632, Hit@5635
+
+Animation: f4a3c
+  Frames: 5280 - 5324  (45 frames)
+  Description: feat / special combat | dual lightsabers | attack | variation 3c
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingtwirl@5290, Swingshort@5302, Swinglong@5305, Hit@5306
+
+Animation: f4a4
+  Frames: 4290 - 4335  (46 frames)
+  Description: feat / special combat | dual lightsabers | attack | variation 4
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Hit@4316
+
+Animation: forcecrush
+  Frames: 7030 - 7090  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g3a1
+  Frames: 920 - 965  (46 frames)
+  Description: general combat | double-bladed lightsaber | attack | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Hit@935, Swingtwirl@935
+
+Animation: g3a2
+  Frames: 1030 - 1075  (46 frames)
+  Description: general combat | double-bladed lightsaber | attack | variation 2
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1037, Swingshort@1044, Hit@1045, Swingtwirl@1049
+
+Animation: g3a4
+  Frames: 5720 - 5764  (45 frames)
+  Description: general combat | double-bladed lightsaber | attack | variation 4
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@5730, Hit@5735, Swinglong@5739, Swingshort@5752
+
+Animation: g3a5
+  Frames: 5830 - 5874  (45 frames)
+  Description: general combat | double-bladed lightsaber | attack | variation 5
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Hit@5845
+
+Animation: g3f1
+  Frames: 4510 - 4555  (46 frames)
+  Description: general combat | double-bladed lightsaber | unclear / unused | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@4526, Swingshort@4535
+
+Animation: g3g1
+  Frames: 1860 - 1904  (45 frames)
+  Description: general combat | double-bladed lightsaber | dodge / evade | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1865
+
+Animation: g3r1
+  Frames: 820 - 860  (41 frames)
+  Description: general combat | double-bladed lightsaber | ready / combat idle | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g3w1
+  Frames: 1640 - 1685  (46 frames)
+  Description: general combat | double-bladed lightsaber | wield / draw weapon | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@1655, draw_weapon@1656, Swingtwirl@1657, Swingshort@1663
+
+Animation: g4a1
+  Frames: 380 - 425  (46 frames)
+  Description: general combat | dual lightsabers | attack | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@385, Swingshort@395, Hit@396, Swingtwirl@400
+
+Animation: g4a2
+  Frames: 490 - 535  (46 frames)
+  Description: general combat | dual lightsabers | attack | variation 2
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@498, Swingshort@504, Hit@505
+
+Animation: g4a3
+  Frames: 4730 - 4774  (45 frames)
+  Description: general combat | dual lightsabers | attack | variation 3
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@4733, Swingtwirl@4740, Hit@4745, Swingshort@4760, Swingshort@4765
+
+Animation: g4a4
+  Frames: 4840 - 4884  (45 frames)
+  Description: general combat | dual lightsabers | attack | variation 4
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingtwirl@4853, Hit@4855, Swinglong@4861, Swingshort@4877
+
+Animation: g4a5
+  Frames: 4950 - 4994  (45 frames)
+  Description: general combat | dual lightsabers | attack | variation 5
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingtwirl@4962, Hit@4965, Swingshort@4976
+
+Animation: g4f1
+  Frames: 4620 - 4665  (46 frames)
+  Description: general combat | dual lightsabers | unclear / unused | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@4630, Swingshort@4638, Swingshort@4646, Swingshort@4652
+
+Animation: g4g1
+  Frames: 1970 - 2014  (45 frames)
+  Description: general combat | dual lightsabers | dodge / evade | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1979
+
+Animation: g4r1
+  Frames: 280 - 320  (41 frames)
+  Description: general combat | dual lightsabers | ready / combat idle | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g4w1
+  Frames: 1750 - 1795  (46 frames)
+  Description: general combat | dual lightsabers | wield / draw weapon | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: draw_weapon@1759, Swingshort@1761, Swingtwirl@1762, Swingshort@1768, Swingtwirl@1772, Swingshort@1775, Swingshort@1782
+
+Animation: g5f1
+  Frames: 7150 - 7195  (46 frames)
+  Description: general combat | single blaster pistol | unclear / unused | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g7f1
+  Frames: 7260 - 7304  (45 frames)
+  Description: general combat | rifle | unclear / unused | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: hshakestun
+  Frames: 9480 - 9580  (101 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: hshakeweary
+  Frames: 9330 - 9420  (91 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: idlepose
+  Frames: 6600 - 6610  (11 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: itemequip
+  Frames: 8210 - 8250  (41 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: m3a1
+  Frames: 1140 - 1185  (46 frames)
+  Description: monster / creature combat | double-bladed lightsaber | attack | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@1152, Swinglong@1164, Hit@1166
+
+Animation: m3a2
+  Frames: 1250 - 1295  (46 frames)
+  Description: monster / creature combat | double-bladed lightsaber | attack | variation 2
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@1260, Swinglong@1271, Hit@1273
+
+Animation: m4a1
+  Frames: 600 - 645  (46 frames)
+  Description: monster / creature combat | dual lightsabers | attack | variation 1
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@613, Swinglong@625, Hit@626
+
+Animation: m4a2
+  Frames: 710 - 755  (46 frames)
+  Description: monster / creature combat | dual lightsabers | attack | variation 2
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@721, Swingshort@731, Hit@733
+
+Animation: meditatesit
+  Frames: 6910 - 6970  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: meditatestand
+  Frames: 6670 - 6730  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: sit
+  Frames: 6790 - 6850  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: sitstand
+  Frames: 9740 - 9790  (51 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: walkback
+  Frames: 9640 - 9680  (41 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female02
+  Root Object: KA_Female02
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+
+MODEL: KA_Female03
+------------------------------------------------------------------------------------------
+Animation count: 68
+
+Animation: b7a1
+  Frames: 5110 - 5155  (46 frames)
+  Description: blaster / ranged | rifle | attack | variation 1
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: b7a2
+  Frames: 5220 - 5265  (46 frames)
+  Description: blaster / ranged | rifle | attack | variation 2
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: b7a3
+  Frames: 5330 - 5375  (46 frames)
+  Description: blaster / ranged | rifle | attack | variation 3
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: b9a1
+  Frames: 5920 - 5965  (46 frames)
+  Description: blaster / ranged | heavy weapon | attack | variation 1
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: b9a2
+  Frames: 6030 - 6075  (46 frames)
+  Description: blaster / ranged | heavy weapon | attack | variation 2
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: b9a3
+  Frames: 6140 - 6185  (46 frames)
+  Description: blaster / ranged | heavy weapon | attack | variation 3
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: bow
+  Frames: 460 - 536  (77 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: dance
+  Frames: 1000 - 1048  (49 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: dance1
+  Frames: 1110 - 1150  (41 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: dead
+  Frames: 1820 - 1821  (2 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: dead1
+  Frames: 1890 - 1891  (2 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: dead3
+  Frames: 9840 - 9841  (2 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: die
+  Frames: 1530 - 1618  (89 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: snd_hitground@1595
+
+Animation: die1
+  Frames: 1680 - 1755  (76 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: snd_hitground@1746
+
+Animation: emotions
+  Frames: 9910 - 9925  (16 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: flirt
+  Frames: 1210 - 1310  (101 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.5
+  TTime: 0.5
+  Events: -
+
+Animation: g2r1
+  Frames: 5810 - 5855  (46 frames)
+  Description: general combat | single lightsaber | ready / combat idle | variation 1
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g7d1
+  Frames: 5440 - 5447  (8 frames)
+  Description: general combat | rifle | damage / hit reaction | variation 1
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g7g1
+  Frames: 5510 - 5547  (38 frames)
+  Description: general combat | rifle | dodge / evade | variation 1
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g7r1
+  Frames: 5700 - 5745  (46 frames)
+  Description: general combat | rifle | ready / combat idle | variation 1
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g7w1
+  Frames: 5610 - 5640  (31 frames)
+  Description: general combat | rifle | wield / draw weapon | variation 1
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: draw_weapon@5611
+
+Animation: g9d1
+  Frames: 6250 - 6257  (8 frames)
+  Description: general combat | heavy weapon | damage / hit reaction | variation 1
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g9g1
+  Frames: 6320 - 6357  (38 frames)
+  Description: general combat | heavy weapon | dodge / evade | variation 1
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g9r1
+  Frames: 6510 - 6555  (46 frames)
+  Description: general combat | heavy weapon | ready / combat idle | variation 1
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g9w1
+  Frames: 6420 - 6450  (31 frames)
+  Description: general combat | heavy weapon | wield / draw weapon | variation 1
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: draw_weapon@6421
+
+Animation: getupdead
+  Frames: 7080 - 7140  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: getupdead1
+  Frames: 7200 - 7260  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: good
+  Frames: 8420 - 8500  (81 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: greeting
+  Frames: 810 - 850  (41 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: hturnl
+  Frames: 7940 - 8030  (91 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: hturnr
+  Frames: 8090 - 8180  (91 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: kneel
+  Frames: 600 - 630  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: listen
+  Frames: 2880 - 3380  (501 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: listeninj
+  Frames: 7540 - 7700  (161 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: meditate
+  Frames: 690 - 750  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: pause1
+  Frames: 1960 - 2260  (301 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 1.0
+  TTime: 1.0
+  Events: -
+
+Animation: pause2
+  Frames: 2320 - 2820  (501 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 1.0
+  TTime: 1.0
+  Events: -
+
+Animation: pause3
+  Frames: 6620 - 7020  (401 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: pauseinj
+  Frames: 60 - 100  (41 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: pausepsn
+  Frames: 8240 - 8355  (116 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: pausestl
+  Frames: 1370 - 1461  (92 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: pausetrd
+  Frames: 160 - 200  (41 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 1.0
+  TTime: 1.0
+  Events: -
+
+Animation: run
+  Frames: 9110 - 9132  (23 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: snd_footstep@9111, snd_footstep@9122
+
+Animation: runds
+  Frames: 9380 - 9402  (23 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: snd_footstep@9381, snd_footstep@9392
+
+Animation: runinj
+  Frames: 9990 - 10012  (23 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: runrf
+  Frames: 9470 - 9492  (23 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: snd_footstep@9471, snd_footstep@9482
+
+Animation: runss
+  Frames: 9290 - 9312  (23 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: snd_footstep@9292, snd_footstep@9302
+
+Animation: runst
+  Frames: 9200 - 9222  (23 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: snd_footstep@9201, snd_footstep@9212
+
+Animation: salute
+  Frames: 260 - 310  (51 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.5
+  TTime: 0.5
+  Events: -
+
+Animation: talk
+  Frames: 5030 - 5045  (16 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.0
+  TTime: 0.0
+  Events: -
+
+Animation: talkinj
+  Frames: 7320 - 7480  (161 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: talkprone
+  Frames: 9560 - 9680  (121 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: talkpronedie
+  Frames: 9740 - 9780  (41 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: taunt
+  Frames: 910 - 940  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.5
+  TTime: 0.5
+  Events: -
+
+Animation: tlkforce
+  Frames: 4000 - 4400  (401 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: tlklaugh
+  Frames: 4460 - 4620  (161 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: tlknorm
+  Frames: 3440 - 3940  (501 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: tlkplead
+  Frames: 4680 - 4800  (121 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: tlksad
+  Frames: 4860 - 4970  (111 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.75
+  TTime: 0.75
+  Events: -
+
+Animation: turnleft
+  Frames: 7760 - 7790  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: turnright
+  Frames: 7850 - 7880  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: victory
+  Frames: 370 - 400  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.5
+  TTime: 0.5
+  Events: -
+
+Animation: walk
+  Frames: 8560 - 8590  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: walkds
+  Frames: 8830 - 8860  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: walkinj
+  Frames: 9010 - 9042  (33 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: walkrf
+  Frames: 8920 - 8950  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: walkss
+  Frames: 8740 - 8770  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: walkst
+  Frames: 8650 - 8680  (31 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Female03
+  Root Object: KA_Female03
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+
+MODEL: KA_Male01
+------------------------------------------------------------------------------------------
+Animation count: 65
+
+Animation: c10d1
+  Frames: 1490 - 1534  (45 frames)
+  Description: combat / melee | unarmed complex, KOTOR 2 | damage / hit reaction | variation 1
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: HitParry@1499, HitParry@1512
+
+Animation: c10d2
+  Frames: 1710 - 1754  (45 frames)
+  Description: combat / melee | unarmed complex, KOTOR 2 | damage / hit reaction | variation 2
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: c10d3
+  Frames: 1930 - 1974  (45 frames)
+  Description: combat / melee | unarmed complex, KOTOR 2 | damage / hit reaction | variation 3
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: HitParry@1939, HitParry@1951
+
+Animation: c10d4
+  Frames: 2150 - 2194  (45 frames)
+  Description: combat / melee | unarmed complex, KOTOR 2 | damage / hit reaction | variation 4
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: c10d5
+  Frames: 2370 - 2414  (45 frames)
+  Description: combat / melee | unarmed complex, KOTOR 2 | damage / hit reaction | variation 5
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: HitParry@2379
+
+Animation: c10p1
+  Frames: 1380 - 1424  (45 frames)
+  Description: combat / melee | unarmed complex, KOTOR 2 | parry | variation 1
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: HitParry@1389, HitParry@1402, HitParry@1417
+
+Animation: c10p2
+  Frames: 1600 - 1644  (45 frames)
+  Description: combat / melee | unarmed complex, KOTOR 2 | parry | variation 2
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: HitParry@1628
+
+Animation: c10p3
+  Frames: 1820 - 1864  (45 frames)
+  Description: combat / melee | unarmed complex, KOTOR 2 | parry | variation 3
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: HitParry@1829, HitParry@1841, HitParry@1856
+
+Animation: c10p4
+  Frames: 2040 - 2084  (45 frames)
+  Description: combat / melee | unarmed complex, KOTOR 2 | parry | variation 4
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: c10p5
+  Frames: 2260 - 2304  (45 frames)
+  Description: combat / melee | unarmed complex, KOTOR 2 | parry | variation 5
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: HitParry@2269
+
+Animation: c2d1
+  Frames: 60 - 104  (45 frames)
+  Description: combat / melee | single lightsaber | damage / hit reaction | variation 1
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@68, Contact@69, HitParry@69, Swinglong@79, Contact@81, HitParry@81, Swingshort@96, Contact@97
+
+Animation: c2d2
+  Frames: 170 - 214  (45 frames)
+  Description: combat / melee | single lightsaber | damage / hit reaction | variation 2
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@180, Swinglong@196, Contact@199
+
+Animation: c2d3
+  Frames: 280 - 324  (45 frames)
+  Description: combat / melee | single lightsaber | damage / hit reaction | variation 3
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@288, Contact@289, HitParry@289, Swinglong@300, Contact@301, HitParry@301, Swingshort@315, Contact@316
+
+Animation: c2d4
+  Frames: 720 - 764  (45 frames)
+  Description: combat / melee | single lightsaber | damage / hit reaction | variation 4
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@729, Contact@730, Clash@730, Contact@738, Clash@739, Contact@746
+
+Animation: c2d5
+  Frames: 1270 - 1314  (45 frames)
+  Description: combat / melee | single lightsaber | damage / hit reaction | variation 5
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1278, Contact@1279, HitParry@1279
+
+Animation: c2p1
+  Frames: 940 - 984  (45 frames)
+  Description: combat / melee | single lightsaber | parry | variation 1
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@948, Contact@949, HitParry@949, Swinglong@959, Contact@961, HitParry@961, Swingshort@976, Contact@977, HitParry@977
+
+Animation: c2p2
+  Frames: 610 - 654  (45 frames)
+  Description: combat / melee | single lightsaber | parry | variation 2
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@619, Contact@639, HitParry@639
+
+Animation: c2p3
+  Frames: 500 - 544  (45 frames)
+  Description: combat / melee | single lightsaber | parry | variation 3
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@508, Contact@509, HitParry@509, Contact@521, Swingshort@521, HitParry@521, Swinglong@535, Contact@536, HitParry@536
+
+Animation: c2p4
+  Frames: 390 - 434  (45 frames)
+  Description: combat / melee | single lightsaber | parry | variation 4
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@399, Contact@400, Clash@400, Contact@408, Clash@409, Contact@416
+
+Animation: c2p5
+  Frames: 830 - 874  (45 frames)
+  Description: combat / melee | single lightsaber | parry | variation 5
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@838, Contact@839, HitParry@839
+
+Animation: CUT025
+  Frames: 6550 - 6667  (118 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: CUT026L
+  Frames: 6730 - 6790  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: CUT027
+  Frames: 6850 - 6957  (108 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: cut028
+  Frames: 7020 - 7063  (44 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: cut029L
+  Frames: 7130 - 7190  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: cut030
+  Frames: 7250 - 7298  (49 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f10d1a
+  Frames: 3360 - 3404  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | damage / hit reaction | variation 1a
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: HitParry@3379
+
+Animation: f10d1b
+  Frames: 5340 - 5384  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | damage / hit reaction | variation 1b
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f10d1c
+  Frames: 5560 - 5604  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | damage / hit reaction | variation 1c
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f10d2a
+  Frames: 3580 - 3624  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | damage / hit reaction | variation 2a
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f10d2b
+  Frames: 5780 - 5824  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | damage / hit reaction | variation 2b
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: HitParry@5785
+
+Animation: f10d2c
+  Frames: 6000 - 6044  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | damage / hit reaction | variation 2c
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f10d3a
+  Frames: 3800 - 3844  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | damage / hit reaction | variation 3a
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f10d3b
+  Frames: 6220 - 6264  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | damage / hit reaction | variation 3b
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f10d3c
+  Frames: 6440 - 6484  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | damage / hit reaction | variation 3c
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f10p1a
+  Frames: 3250 - 3294  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | parry | variation 1a
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: HitParry@3269, HitParry@3277
+
+Animation: f10p1b
+  Frames: 5230 - 5274  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | parry | variation 1b
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f10p1c
+  Frames: 5450 - 5494  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | parry | variation 1c
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f10p2a
+  Frames: 3470 - 3514  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | parry | variation 2a
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: HitParry@3493
+
+Animation: f10p2b
+  Frames: 5670 - 5714  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | parry | variation 2b
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: HitParry@5675, HitParry@5699
+
+Animation: f10p2c
+  Frames: 5890 - 5934  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | parry | variation 2c
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f10p3a
+  Frames: 3690 - 3734  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | parry | variation 3a
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f10p3b
+  Frames: 6110 - 6154  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | parry | variation 3b
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f10p3c
+  Frames: 6330 - 6374  (45 frames)
+  Description: feat / special combat | unarmed complex, KOTOR 2 | parry | variation 3c
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f2d1b
+  Frames: 4020 - 4064  (45 frames)
+  Description: feat / special combat | single lightsaber | damage / hit reaction | variation 1b
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@4024, Contact@4027, Clash@4027, Contact@4037, HitParry@4037, Hit@4048, Swinglong@4050
+
+Animation: f2d1c
+  Frames: 4680 - 4724  (45 frames)
+  Description: feat / special combat | single lightsaber | damage / hit reaction | variation 1c
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@4684, Contact@4687, Clash@4687, Hit@4706
+
+Animation: f2d2b
+  Frames: 4240 - 4284  (45 frames)
+  Description: feat / special combat | single lightsaber | damage / hit reaction | variation 2b
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@4240, Contact@4245, HitParry@4245, Hit@4269
+
+Animation: f2d2c
+  Frames: 4900 - 4944  (45 frames)
+  Description: feat / special combat | single lightsaber | damage / hit reaction | variation 2c
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Contact@4907, HitParry@4907
+
+Animation: f2d3a
+  Frames: 1050 - 1094  (45 frames)
+  Description: feat / special combat | single lightsaber | damage / hit reaction | variation 3a
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Contact@1076, Hit@1076, Swinglong@1077
+
+Animation: f2d3b
+  Frames: 4460 - 4504  (45 frames)
+  Description: feat / special combat | single lightsaber | damage / hit reaction | variation 3b
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Contact@4486, Hit@4486, HitParry@4486
+
+Animation: f2d3c
+  Frames: 5120 - 5164  (45 frames)
+  Description: feat / special combat | single lightsaber | damage / hit reaction | variation 3c
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f2p1b
+  Frames: 3910 - 3954  (45 frames)
+  Description: feat / special combat | single lightsaber | parry | variation 1b
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@3914, Contact@3917, Clash@3917, Contact@3927, HitParry@3927, Swingshort@3933, Contact@3938, HitParry@3938
+
+Animation: f2p1c
+  Frames: 4570 - 4614  (45 frames)
+  Description: feat / special combat | single lightsaber | parry | variation 1c
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@4575, Contact@4577, Clash@4577, HitParry@4577, Contact@4587, Swingshort@4593, Contact@4596, HitParry@4596
+
+Animation: f2p2b
+  Frames: 4130 - 4174  (45 frames)
+  Description: feat / special combat | single lightsaber | parry | variation 2b
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@4130, Contact@4135, HitParry@4135, Swingshort@4155, Contact@4159, HitParry@4159
+
+Animation: f2p2c
+  Frames: 4790 - 4834  (45 frames)
+  Description: feat / special combat | single lightsaber | parry | variation 2c
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Contact@4797, HitParry@4797, Swingshort@4803
+
+Animation: f2p3a
+  Frames: 1160 - 1204  (45 frames)
+  Description: feat / special combat | single lightsaber | parry | variation 3a
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1186
+
+Animation: f2p3b
+  Frames: 4350 - 4394  (45 frames)
+  Description: feat / special combat | single lightsaber | parry | variation 3b
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f2p3c
+  Frames: 5010 - 5054  (45 frames)
+  Description: feat / special combat | single lightsaber | parry | variation 3c
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g10a2
+  Frames: 3140 - 3184  (45 frames)
+  Description: general combat | unarmed complex, KOTOR 2 | attack | variation 2
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Hit@3155
+
+Animation: g10g1
+  Frames: 2480 - 2524  (45 frames)
+  Description: general combat | unarmed complex, KOTOR 2 | dodge / evade | variation 1
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: m10a1
+  Frames: 2810 - 2854  (45 frames)
+  Description: monster / creature combat | unarmed complex, KOTOR 2 | attack | variation 1
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Hit@2837
+
+Animation: m10a2
+  Frames: 2920 - 2964  (45 frames)
+  Description: monster / creature combat | unarmed complex, KOTOR 2 | attack | variation 2
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Hit@2942
+
+Animation: m10d1
+  Frames: 3030 - 3074  (45 frames)
+  Description: monster / creature combat | unarmed complex, KOTOR 2 | damage / hit reaction | variation 1
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Hit@3045
+
+Animation: m10g1
+  Frames: 2700 - 2744  (45 frames)
+  Description: monster / creature combat | unarmed complex, KOTOR 2 | dodge / evade | variation 1
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: m10g2
+  Frames: 2590 - 2634  (45 frames)
+  Description: monster / creature combat | unarmed complex, KOTOR 2 | dodge / evade | variation 2
+  Root: KA_Male01
+  Root Object: KA_Male01
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
 
 MODEL: KA_Male02
---------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 Animation count: 230
 
 Animation: activate
   Frames: 5840 - 5870  (31 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.5
+  TTime: 0.5
   Events: -
 
 Animation: animloop01
   Frames: 2850 - 2899  (50 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.75
+  TTime: 0.75
   Events: -
 
 Animation: animloop02
   Frames: 20410 - 20810  (401 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.75
+  TTime: 0.75
   Events: -
 
 Animation: animloop03
   Frames: 7350 - 7650  (301 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.75
+  TTime: 0.75
   Events: -
 
 Animation: animloop04
   Frames: 27370 - 27570  (201 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: animloop05
   Frames: 27260 - 27304  (45 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b5a1
   Frames: 12490 - 12534  (45 frames)
-  Description: ranged | single blaster | attack | variation 1
+  Description: blaster / ranged | single blaster pistol | attack | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b5a2
   Frames: 12600 - 12644  (45 frames)
-  Description: ranged | single blaster | attack | variation 2
+  Description: blaster / ranged | single blaster pistol | attack | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b5a3
   Frames: 15700 - 15745  (46 frames)
-  Description: ranged | single blaster | attack | variation 3
+  Description: blaster / ranged | single blaster pistol | attack | variation 3
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b5a4
   Frames: 19030 - 19075  (46 frames)
-  Description: ranged | single blaster | attack | variation 4
+  Description: blaster / ranged | single blaster pistol | attack | variation 4
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b6a1
   Frames: 13770 - 13814  (45 frames)
-  Description: ranged | dual blasters | attack | variation 1
+  Description: blaster / ranged | dual blaster pistols | attack | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b6a2
   Frames: 13880 - 13924  (45 frames)
-  Description: ranged | dual blasters | attack | variation 2
+  Description: blaster / ranged | dual blaster pistols | attack | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b6a3
   Frames: 15810 - 15855  (46 frames)
-  Description: ranged | dual blasters | attack | variation 3
+  Description: blaster / ranged | dual blaster pistols | attack | variation 3
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b6a4
   Frames: 19140 - 19185  (46 frames)
-  Description: ranged | dual blasters | attack | variation 4
+  Description: blaster / ranged | dual blaster pistols | attack | variation 4
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b7a1
   Frames: 14400 - 14445  (46 frames)
-  Description: ranged | rifle | attack | variation 1
+  Description: blaster / ranged | rifle | attack | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b7a2
   Frames: 14510 - 14555  (46 frames)
-  Description: ranged | rifle | attack | variation 2
+  Description: blaster / ranged | rifle | attack | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b7a3
   Frames: 15920 - 15965  (46 frames)
-  Description: ranged | rifle | attack | variation 3
+  Description: blaster / ranged | rifle | attack | variation 3
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b7a4
   Frames: 19250 - 19295  (46 frames)
-  Description: ranged | rifle | attack | variation 4
+  Description: blaster / ranged | rifle | attack | variation 4
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b9a1
   Frames: 17550 - 17595  (46 frames)
-  Description: ranged | heavy carbine | attack | variation 1
+  Description: blaster / ranged | heavy weapon | attack | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b9a2
   Frames: 17660 - 17705  (46 frames)
-  Description: ranged | heavy carbine | attack | variation 2
+  Description: blaster / ranged | heavy weapon | attack | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: b9a4
   Frames: 20020 - 20065  (46 frames)
-  Description: ranged | heavy carbine | attack | variation 4
+  Description: blaster / ranged | heavy weapon | attack | variation 4
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: bow
   Frames: 2630 - 2689  (60 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: c10a1
   Frames: 21560 - 21604  (45 frames)
-  Description: melee / complex melee | unarmed complex, K2 only | attack | variation 1
+  Description: combat / melee | unarmed complex, KOTOR 2 | attack | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@21583
 
 Animation: c10a2
   Frames: 21670 - 21714  (45 frames)
-  Description: melee / complex melee | unarmed complex, K2 only | attack | variation 2
+  Description: combat / melee | unarmed complex, KOTOR 2 | attack | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@21698
 
 Animation: c10a3
   Frames: 21780 - 21824  (45 frames)
-  Description: melee / complex melee | unarmed complex, K2 only | attack | variation 3
+  Description: combat / melee | unarmed complex, KOTOR 2 | attack | variation 3
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@21815
 
 Animation: c10a4
   Frames: 21890 - 21934  (45 frames)
-  Description: melee / complex melee | unarmed complex, K2 only | attack | variation 4
+  Description: combat / melee | unarmed complex, KOTOR 2 | attack | variation 4
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@21925
 
 Animation: c10a5
   Frames: 22000 - 22044  (45 frames)
-  Description: melee / complex melee | unarmed complex, K2 only | attack | variation 5
+  Description: combat / melee | unarmed complex, KOTOR 2 | attack | variation 5
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@22023
 
 Animation: c10n1
   Frames: 21420 - 21427  (8 frames)
-  Description: melee / complex melee | unarmed complex, K2 only | deflection | variation 1
+  Description: combat / melee | unarmed complex, KOTOR 2 | deflect | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.125
+  TTime: 0.125
   Events: -
 
 Animation: c10n2
   Frames: 21490 - 21497  (8 frames)
-  Description: melee / complex melee | unarmed complex, K2 only | deflection | variation 2
+  Description: combat / melee | unarmed complex, KOTOR 2 | deflect | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.125
+  TTime: 0.125
   Events: -
 
 Animation: c2a1
   Frames: 10410 - 10454  (45 frames)
-  Description: melee / complex melee | single saber | attack | variation 1
+  Description: combat / melee | single lightsaber | attack | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingshort@10418, Swinglong@10430, Swingshort@10446, Hit@10447
 
 Animation: c2a2
   Frames: 10520 - 10564  (45 frames)
-  Description: melee / complex melee | single saber | attack | variation 2
+  Description: combat / melee | single lightsaber | attack | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingshort@10530, Swingtwirl@10540, Swinglong@10548, Hit@10549
 
 Animation: c2a3
   Frames: 10630 - 10674  (45 frames)
-  Description: melee / complex melee | single saber | attack | variation 3
+  Description: combat / melee | single lightsaber | attack | variation 3
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingshort@10639, Swingshort@10650, Hit@10666, Swingshort@10666
 
 Animation: c2a4
   Frames: 10740 - 10784  (45 frames)
-  Description: melee / complex melee | single saber | attack | variation 4
+  Description: combat / melee | single lightsaber | attack | variation 4
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingshort@10749, Hit@10765
 
 Animation: c2a5
   Frames: 10850 - 10894  (45 frames)
-  Description: melee / complex melee | single saber | attack | variation 5
+  Description: combat / melee | single lightsaber | attack | variation 5
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingshort@10857, Swingtwirl@10869, Hit@10874
 
 Animation: c2n1
   Frames: 10960 - 10967  (8 frames)
-  Description: melee / complex melee | single saber | deflection | variation 1
+  Description: combat / melee | single lightsaber | deflect | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.125
+  TTime: 0.125
   Events: -
 
 Animation: c2n2
   Frames: 11030 - 11037  (8 frames)
-  Description: melee / complex melee | single saber | deflection | variation 2
+  Description: combat / melee | single lightsaber | deflect | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.125
+  TTime: 0.125
   Events: -
 
 Animation: castout1
   Frames: 7820 - 7830  (11 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: castout2
   Frames: 7980 - 7990  (11 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: castout3
   Frames: 8150 - 8160  (11 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: castoutlp1
   Frames: 7890 - 7918  (29 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: castoutlp2
   Frames: 8050 - 8085  (36 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: castoutlp3
   Frames: 8220 - 8249  (30 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: catchsab
   Frames: 8590 - 8605  (16 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: choke
   Frames: 8670 - 8714  (45 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: CUT015
   Frames: 27630 - 27672  (43 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: CUT016L
   Frames: 27740 - 27796  (57 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: CUT017
   Frames: 27860 - 27899  (40 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: CUT021
   Frames: 28060 - 28177  (118 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_footstep@28075, snd_footstep@28090, snd_footstep@28107
 
 Animation: CUT022L
   Frames: 28240 - 28300  (61 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: CUT023
   Frames: 28360 - 28460  (101 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_footstep@28402, snd_footstep@28422, snd_footstep@28435
 
 Animation: dance
   Frames: 7110 - 7172  (63 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: dance1
   Frames: 7240 - 7290  (51 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: dead
   Frames: 9540 - 9541  (2 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: dead1
   Frames: 9740 - 9741  (2 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: dead3
   Frames: 21050 - 21051  (2 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: deflect
   Frames: 25190 - 25197  (8 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: die
   Frames: 9390 - 9479  (90 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_hitground@9453
 
 Animation: die1
   Frames: 9610 - 9675  (66 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_hitground@9662
 
 Animation: die3
   Frames: 20980 - 20985  (6 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: disablemine
   Frames: 6790 - 6927  (138 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: diveroll
   Frames: 27960 - 27993  (34 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: downpoint
   Frames: 26630 - 26660  (31 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: emotions
   Frames: 15510 - 15525  (16 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: equip
   Frames: 5930 - 5960  (31 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.5
+  TTime: 0.5
   Events: draw_weapon@5947
 
 Animation: evil
   Frames: 16430 - 16510  (81 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: f10a1a
   Frames: 22600 - 22644  (45 frames)
-  Description: feat / special melee | unarmed complex, K2 only | attack | variation 1a
+  Description: feat / special combat | unarmed complex, KOTOR 2 | attack | variation 1a
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@22627
 
 Animation: f10a1b
   Frames: 24250 - 24294  (45 frames)
-  Description: feat / special melee | unarmed complex, K2 only | attack | variation 1b
+  Description: feat / special combat | unarmed complex, KOTOR 2 | attack | variation 1b
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@24278
 
 Animation: f10a1c
   Frames: 24360 - 24404  (45 frames)
-  Description: feat / special melee | unarmed complex, K2 only | attack | variation 1c
+  Description: feat / special combat | unarmed complex, KOTOR 2 | attack | variation 1c
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@24386
 
 Animation: f10a2a
   Frames: 22710 - 22754  (45 frames)
-  Description: feat / special melee | unarmed complex, K2 only | attack | variation 2a
+  Description: feat / special combat | unarmed complex, KOTOR 2 | attack | variation 2a
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@22735
 
 Animation: f10a2b
   Frames: 24470 - 24514  (45 frames)
-  Description: feat / special melee | unarmed complex, K2 only | attack | variation 2b
+  Description: feat / special combat | unarmed complex, KOTOR 2 | attack | variation 2b
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@24499
 
 Animation: f10a2c
   Frames: 24580 - 24624  (45 frames)
-  Description: feat / special melee | unarmed complex, K2 only | attack | variation 2c
+  Description: feat / special combat | unarmed complex, KOTOR 2 | attack | variation 2c
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: f10a3a
   Frames: 24800 - 24844  (45 frames)
-  Description: feat / special melee | unarmed complex, K2 only | attack | variation 3a
+  Description: feat / special combat | unarmed complex, KOTOR 2 | attack | variation 3a
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@24825
 
 Animation: f10a3b
   Frames: 22820 - 22864  (45 frames)
-  Description: feat / special melee | unarmed complex, K2 only | attack | variation 3b
+  Description: feat / special combat | unarmed complex, KOTOR 2 | attack | variation 3b
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@22846
 
 Animation: f10a3c
   Frames: 24690 - 24734  (45 frames)
-  Description: feat / special melee | unarmed complex, K2 only | attack | variation 3c
+  Description: feat / special combat | unarmed complex, KOTOR 2 | attack | variation 3c
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@24715
 
 Animation: f2a1b
   Frames: 23260 - 23304  (45 frames)
-  Description: feat / special melee | single saber | attack | variation 1b
+  Description: feat / special combat | single lightsaber | attack | variation 1b
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Clash@23267, Swingshort@23287, Hit@23288, Swingtwirl@23290
 
 Animation: f2a1c
   Frames: 23590 - 23634  (45 frames)
-  Description: feat / special melee | single saber | attack | variation 1c
+  Description: feat / special combat | single lightsaber | attack | variation 1c
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Clash@23597, Swingshort@23606, Swinglong@23614, Hit@23616
 
 Animation: f2a2b
   Frames: 23370 - 23414  (45 frames)
-  Description: feat / special melee | single saber | attack | variation 2b
+  Description: feat / special combat | single lightsaber | attack | variation 2b
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swinglong@23373, Swinglong@23385, Swingshort@23387, Swinglong@23396, Hit@23399, Swingtwirl@23402
 
 Animation: f2a2c
   Frames: 23700 - 23744  (45 frames)
-  Description: feat / special melee | single saber | attack | variation 2c
+  Description: feat / special combat | single lightsaber | attack | variation 2c
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swinglong@23704, Swinglong@23716, Hit@23719, Swingshort@23722
 
 Animation: f2a3a
   Frames: 11100 - 11144  (45 frames)
-  Description: feat / special melee | single saber | attack | variation 3a
+  Description: feat / special combat | single lightsaber | attack | variation 3a
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingtwirl@11111, Swinglong@11111, Swinglong@11125, Swingshort@11125, Hit@11126
 
 Animation: f2a3b
   Frames: 23480 - 23524  (45 frames)
-  Description: feat / special melee | single saber | attack | variation 3b
+  Description: feat / special combat | single lightsaber | attack | variation 3b
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swinglong@23489, Swingshort@23504, Hit@23506
 
 Animation: f2a3c
   Frames: 23810 - 23854  (45 frames)
-  Description: feat / special melee | single saber | attack | variation 3c
+  Description: feat / special combat | single lightsaber | attack | variation 3c
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingshort@23813, Swinglong@23821, Swingshort@23835, Hit@23836
 
 Animation: f2a4
   Frames: 20870 - 20915  (46 frames)
-  Description: feat / special melee | single saber | attack | variation 4
+  Description: feat / special combat | single lightsaber | attack | variation 4
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@20896
 
 Animation: f5d1
   Frames: 13440 - 13484  (45 frames)
-  Description: feat / special melee | single blaster | damage / hit reaction | variation 1
+  Description: feat / special combat | single blaster pistol | damage / hit reaction | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: f5d2
   Frames: 13550 - 13594  (45 frames)
-  Description: feat / special melee | single blaster | damage / hit reaction | variation 2
+  Description: feat / special combat | single blaster pistol | damage / hit reaction | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: f5d3
   Frames: 13660 - 13704  (45 frames)
-  Description: feat / special melee | single blaster | damage / hit reaction | variation 3
+  Description: feat / special combat | single blaster pistol | damage / hit reaction | variation 3
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: f5p1
   Frames: 13110 - 13154  (45 frames)
-  Description: feat / special melee | single blaster | parry | variation 1
+  Description: feat / special combat | single blaster pistol | parry | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: f5p2
   Frames: 13220 - 13264  (45 frames)
-  Description: feat / special melee | single blaster | parry | variation 2
+  Description: feat / special combat | single blaster pistol | parry | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: f5p3
   Frames: 13330 - 13374  (45 frames)
-  Description: feat / special melee | single blaster | parry | variation 3
+  Description: feat / special combat | single blaster pistol | parry | variation 3
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: fblock
   Frames: 18280 - 18287  (8 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: flirt
   Frames: 5200 - 5232  (33 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: forcerage
   Frames: 25260 - 25310  (51 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g10a1
   Frames: 22380 - 22424  (45 frames)
-  Description: generic | unarmed complex, K2 only | attack | variation 1
+  Description: general combat | unarmed complex, KOTOR 2 | attack | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@22395
 
 Animation: g10a3
   Frames: 23920 - 23964  (45 frames)
-  Description: generic | unarmed complex, K2 only | attack | variation 3
+  Description: general combat | unarmed complex, KOTOR 2 | attack | variation 3
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@23935
 
 Animation: g10a4
   Frames: 24030 - 24074  (45 frames)
-  Description: generic | unarmed complex, K2 only | attack | variation 4
+  Description: general combat | unarmed complex, KOTOR 2 | attack | variation 4
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@24045
 
 Animation: g10a5
   Frames: 24140 - 24184  (45 frames)
-  Description: generic | unarmed complex, K2 only | attack | variation 5
+  Description: general combat | unarmed complex, KOTOR 2 | attack | variation 5
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@24155
 
 Animation: g10d1
   Frames: 22310 - 22319  (10 frames)
-  Description: generic | unarmed complex, K2 only | damage / hit reaction | variation 1
+  Description: general combat | unarmed complex, KOTOR 2 | damage / hit reaction | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g10r1
   Frames: 22220 - 22250  (31 frames)
-  Description: generic | unarmed complex, K2 only | ready | variation 1
+  Description: general combat | unarmed complex, KOTOR 2 | ready / combat idle | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g10w1
   Frames: 22110 - 22155  (46 frames)
-  Description: generic | unarmed complex, K2 only | wield | variation 1
+  Description: general combat | unarmed complex, KOTOR 2 | wield / draw weapon | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g1a1
   Frames: 9810 - 9854  (45 frames)
-  Description: generic | stun baton | attack | variation 1
+  Description: general combat | stun baton / melee weapon | attack | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@9826
 
 Animation: g1a2
   Frames: 9920 - 9964  (45 frames)
-  Description: generic | stun baton | attack | variation 2
+  Description: general combat | stun baton / melee weapon | attack | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Hit@9936
 
 Animation: g1d1
   Frames: 10030 - 10039  (10 frames)
-  Description: generic | stun baton | damage / hit reaction | variation 1
+  Description: general combat | stun baton / melee weapon | damage / hit reaction | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g1g1
   Frames: 10100 - 10144  (45 frames)
-  Description: generic | stun baton | dodge | variation 1
+  Description: general combat | stun baton / melee weapon | dodge / evade | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g1r1
   Frames: 10320 - 10350  (31 frames)
-  Description: generic | stun baton | ready | variation 1
+  Description: general combat | stun baton / melee weapon | ready / combat idle | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g1w1
   Frames: 10210 - 10255  (46 frames)
-  Description: generic | stun baton | wield | variation 1
+  Description: general combat | stun baton / melee weapon | wield / draw weapon | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: draw_weapon@10218
 
 Animation: g1x1
   Frames: 9090 - 9113  (24 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g1y1
   Frames: 9180 - 9212  (33 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_hitground@9184
 
 Animation: g1z1
   Frames: 9280 - 9324  (45 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g2a1
   Frames: 11210 - 11254  (45 frames)
-  Description: generic | single saber | attack | variation 1
+  Description: general combat | single lightsaber | attack | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swinglong@11221, Hit@11225
 
 Animation: g2a2
   Frames: 11320 - 11364  (45 frames)
-  Description: generic | single saber | attack | variation 2
+  Description: general combat | single lightsaber | attack | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swinglong@11331, Hit@11335
 
 Animation: g2a3
   Frames: 22930 - 22974  (45 frames)
-  Description: generic | single saber | attack | variation 3
+  Description: general combat | single lightsaber | attack | variation 3
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingshort@22931, Swinglong@22945, Swingshort@22948, Hit@22950, Swingshort@22967
 
 Animation: g2a4
   Frames: 23040 - 23084  (45 frames)
-  Description: generic | single saber | attack | variation 4
+  Description: general combat | single lightsaber | attack | variation 4
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingshort@23045, Swinglong@23053, Hit@23055, Swingtwirl@23073
 
 Animation: g2a5
   Frames: 23150 - 23194  (45 frames)
-  Description: generic | single saber | attack | variation 5
+  Description: general combat | single lightsaber | attack | variation 5
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingshort@23162, Hit@23165, Swingshort@23175, Swingtwirl@23179
 
 Animation: g2d1
   Frames: 11650 - 11659  (10 frames)
-  Description: generic | single saber | damage / hit reaction | variation 1
+  Description: general combat | single lightsaber | damage / hit reaction | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g2f1
   Frames: 21120 - 21165  (46 frames)
-  Description: generic | single saber | unused / unclear | variation 1
+  Description: general combat | single lightsaber | unclear / unused | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingshort@21133, Swingshort@21144
 
 Animation: g2g1
   Frames: 11540 - 11584  (45 frames)
-  Description: generic | single saber | dodge | variation 1
+  Description: general combat | single lightsaber | dodge / evade | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g2r1
   Frames: 11720 - 11764  (45 frames)
-  Description: generic | single saber | ready | variation 1
+  Description: general combat | single lightsaber | ready / combat idle | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g2w1
   Frames: 11430 - 11475  (46 frames)
-  Description: generic | single saber | wield | variation 1
+  Description: general combat | single lightsaber | wield / draw weapon | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: draw_weapon@11438, Swingshort@11443, Swingshort@11453
 
 Animation: g5d1
   Frames: 12710 - 12719  (10 frames)
-  Description: generic | single blaster | damage / hit reaction | variation 1
+  Description: general combat | single blaster pistol | damage / hit reaction | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g5g1
   Frames: 12780 - 12824  (45 frames)
-  Description: generic | single blaster | dodge | variation 1
+  Description: general combat | single blaster pistol | dodge / evade | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g5r1
   Frames: 13000 - 13044  (45 frames)
-  Description: generic | single blaster | ready | variation 1
+  Description: general combat | single blaster pistol | ready / combat idle | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g5w1
   Frames: 12890 - 12935  (46 frames)
-  Description: generic | single blaster | wield | variation 1
+  Description: general combat | single blaster pistol | wield / draw weapon | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: draw_weapon@12898
 
 Animation: g6d1
   Frames: 13990 - 14000  (11 frames)
-  Description: generic | dual blasters | damage / hit reaction | variation 1
+  Description: general combat | dual blaster pistols | damage / hit reaction | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g6f1
   Frames: 25370 - 25415  (46 frames)
-  Description: generic | dual blasters | unused / unclear | variation 1
+  Description: general combat | dual blaster pistols | unclear / unused | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g6g1
   Frames: 14060 - 14105  (46 frames)
-  Description: generic | dual blasters | dodge | variation 1
+  Description: general combat | dual blaster pistols | dodge / evade | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g6r1
   Frames: 14280 - 14339  (60 frames)
-  Description: generic | dual blasters | ready | variation 1
+  Description: general combat | dual blaster pistols | ready / combat idle | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g6w1
   Frames: 14170 - 14215  (46 frames)
-  Description: generic | dual blasters | wield | variation 1
+  Description: general combat | dual blaster pistols | wield / draw weapon | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: draw_weapon@14175
 
 Animation: g7d1
   Frames: 14620 - 14629  (10 frames)
-  Description: generic | rifle | damage / hit reaction | variation 1
+  Description: general combat | rifle | damage / hit reaction | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g7g1
   Frames: 14690 - 14734  (45 frames)
-  Description: generic | rifle | dodge | variation 1
+  Description: general combat | rifle | dodge / evade | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g7r1
   Frames: 14910 - 14955  (46 frames)
-  Description: generic | rifle | ready | variation 1
+  Description: general combat | rifle | ready / combat idle | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g7w1
   Frames: 14800 - 14845  (46 frames)
-  Description: generic | rifle | wield | variation 1
+  Description: general combat | rifle | wield / draw weapon | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: draw_weapon@14801
 
 Animation: g8a1
   Frames: 15130 - 15175  (46 frames)
-  Description: generic | natural attack / unarmed | attack | variation 1
+  Description: general combat | unarmed / natural attack | attack | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingshort@15143, Hit@15145
 
 Animation: g8a2
   Frames: 15020 - 15065  (46 frames)
-  Description: generic | natural attack / unarmed | attack | variation 2
+  Description: general combat | unarmed / natural attack | attack | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingshort@15034, Hit@15035
 
 Animation: g8d1
   Frames: 15330 - 15339  (10 frames)
-  Description: generic | natural attack / unarmed | damage / hit reaction | variation 1
+  Description: general combat | unarmed / natural attack | damage / hit reaction | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g8g1
   Frames: 15400 - 15445  (46 frames)
-  Description: generic | natural attack / unarmed | dodge | variation 1
+  Description: general combat | unarmed / natural attack | dodge / evade | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g8r1
   Frames: 15240 - 15270  (31 frames)
-  Description: generic | natural attack / unarmed | ready | variation 1
+  Description: general combat | unarmed / natural attack | ready / combat idle | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g9a3
   Frames: 18170 - 18215  (46 frames)
-  Description: generic | heavy carbine | attack | variation 3
+  Description: general combat | heavy weapon | attack | variation 3
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g9d1
   Frames: 17770 - 17779  (10 frames)
-  Description: generic | heavy carbine | damage / hit reaction | variation 1
+  Description: general combat | heavy weapon | damage / hit reaction | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g9f1
   Frames: 25480 - 25525  (46 frames)
-  Description: generic | heavy carbine | unused / unclear | variation 1
+  Description: general combat | heavy weapon | unclear / unused | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g9g1
   Frames: 17840 - 17884  (45 frames)
-  Description: generic | heavy carbine | dodge | variation 1
+  Description: general combat | heavy weapon | dodge / evade | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g9r1
   Frames: 18060 - 18105  (46 frames)
-  Description: generic | heavy carbine | ready | variation 1
+  Description: general combat | heavy weapon | ready / combat idle | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: g9w1
   Frames: 17950 - 17995  (46 frames)
-  Description: generic | heavy carbine | wield | variation 1
+  Description: general combat | heavy weapon | wield / draw weapon | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: draw_weapon@17951
 
 Animation: getfromgnd
   Frames: 6020 - 6085  (66 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: getfromtbl
   Frames: 6150 - 6189  (40 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: getupdead
   Frames: 19360 - 19450  (91 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: getupdead1
   Frames: 19510 - 19600  (91 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: good
   Frames: 16030 - 16130  (101 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: greeting
   Frames: 5090 - 5134  (45 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: horror
   Frames: 8780 - 8807  (28 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: hturnl
   Frames: 17410 - 17490  (81 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.75
+  TTime: 0.75
   Events: -
 
 Animation: hturnr
   Frames: 17270 - 17350  (81 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.75
+  TTime: 0.75
   Events: -
 
 Animation: inject
   Frames: 5730 - 5775  (46 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.5
+  TTime: 0.5
   Events: -
 
 Animation: kneel
   Frames: 3050 - 3139  (90 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: listen
   Frames: 2070 - 2570  (501 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: listeninj
   Frames: 19840 - 19959  (120 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.75
+  TTime: 0.75
   Events: -
 
 Animation: m10d2
   Frames: 22490 - 22534  (45 frames)
-  Description: monster melee | unarmed complex, K2 only | damage / hit reaction | variation 2
+  Description: monster / creature combat | unarmed complex, KOTOR 2 | damage / hit reaction | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: m2a1
   Frames: 11830 - 11874  (45 frames)
-  Description: monster melee | single saber | attack | variation 1
+  Description: monster / creature combat | single lightsaber | attack | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingshort@11840, Swingshort@11854, Hit@11856
 
 Animation: m2a2
   Frames: 11940 - 11984  (45 frames)
-  Description: monster melee | single saber | attack | variation 2
+  Description: monster / creature combat | single lightsaber | attack | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: Swingshort@11951, Swingshort@11961, Hit@11962
 
 Animation: m2d1
   Frames: 12270 - 12314  (45 frames)
-  Description: monster melee | single saber | damage / hit reaction | variation 1
+  Description: monster / creature combat | single lightsaber | damage / hit reaction | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: m2d2
   Frames: 12380 - 12424  (45 frames)
-  Description: monster melee | single saber | damage / hit reaction | variation 2
+  Description: monster / creature combat | single lightsaber | damage / hit reaction | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: m2g1
   Frames: 12050 - 12094  (45 frames)
-  Description: monster melee | single saber | dodge | variation 1
+  Description: monster / creature combat | single lightsaber | dodge / evade | variation 1
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: m2g2
   Frames: 12160 - 12204  (45 frames)
-  Description: monster melee | single saber | dodge | variation 2
+  Description: monster / creature combat | single lightsaber | dodge / evade | variation 2
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: meditate
   Frames: 3200 - 3249  (50 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: neutral
   Frames: 16190 - 16370  (181 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: nodno
   Frames: 25770 - 25815  (46 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: nodyes
   Frames: 25660 - 25705  (46 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: paralyzed
   Frames: 16680 - 16681  (2 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: pause1
   Frames: 150 - 350  (201 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: pause2
   Frames: 410 - 910  (501 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: pause3
   Frames: 18350 - 18962  (613 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.75
+  TTime: 0.75
   Events: -
 
 Animation: pausebrd
   Frames: 1430 - 1509  (80 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: pauseinj
   Frames: 970 - 1089  (120 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: pausepsn
   Frames: 1680 - 1795  (116 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: pausesh
   Frames: 1310 - 1369  (60 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: pausestl
   Frames: 1150 - 1241  (92 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: pausetrd
   Frames: 1570 - 1619  (50 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: persuade
   Frames: 8310 - 8354  (45 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: point
   Frames: 25880 - 25940  (61 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: pointdown
   Frames: 26090 - 26150  (61 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: pointloop
   Frames: 26000 - 26030  (31 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: prone
   Frames: 16750 - 16809  (60 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: rolleyes
   Frames: 25060 - 25128  (69 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: run
   Frames: 26720 - 26742  (23 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_footstep@26727, snd_footstep@26738
 
 Animation: runds
   Frames: 26990 - 27012  (23 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_footstep@26997, snd_footstep@27008
 
 Animation: runinj
   Frames: 21230 - 21254  (25 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_footstep@21232, snd_footstep@21243
 
 Animation: runrf
   Frames: 27080 - 27102  (23 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_footstep@27087, snd_footstep@27098
 
 Animation: runss
   Frames: 26900 - 26922  (23 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_footstep@26907, snd_footstep@26918
 
 Animation: runst
   Frames: 26810 - 26832  (23 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_footstep@26817, snd_footstep@26828
 
 Animation: salute
   Frames: 1860 - 1909  (50 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: scanning
   Frames: 26210 - 26363  (154 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: setmine
   Frames: 6990 - 7050  (61 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: shrug
   Frames: 26430 - 26479  (50 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: shrug2
   Frames: 27170 - 27195  (26 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: sitdown
   Frames: 2750 - 2781  (32 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: sleep
   Frames: 8950 - 9029  (80 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: spasm
   Frames: 15590 - 15634  (45 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: standstill
   Frames: 25590 - 25597  (8 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: standup
   Frames: 2960 - 2990  (31 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.5
+  TTime: 0.5
   Events: -
 
 Animation: stealth
   Frames: 60 - 90  (31 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: snd_footstep@64, snd_footstep@80
 
 Animation: talk
   Frames: 5010 - 5025  (16 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.0
+  TTime: 0.0
   Events: -
 
 Animation: talkinj
   Frames: 19660 - 19779  (120 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.75
+  TTime: 0.75
   Events: -
 
 Animation: talkprone
   Frames: 28520 - 28610  (91 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: talkpronedie
   Frames: 28670 - 28738  (69 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: taunt
   Frames: 5300 - 5342  (43 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: throwgren
   Frames: 7710 - 7755  (46 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: throwgren1
   Frames: 16570 - 16615  (46 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: throwsab
   Frames: 8420 - 8437  (18 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: throwsablp
   Frames: 8500 - 8527  (28 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: tlkforce
   Frames: 3870 - 4096  (227 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: tlklaugh
   Frames: 4750 - 4943  (194 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: tlknorm
   Frames: 3310 - 3810  (501 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: tlkplead
   Frames: 4160 - 4296  (137 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: tlksad
   Frames: 4360 - 4684  (325 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: touchheart
   Frames: 24910 - 24993  (84 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: treatinj
   Frames: 5410 - 5559  (150 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: treatinjlp
   Frames: 5620 - 5670  (51 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: turnleft
   Frames: 20130 - 20160  (31 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: turnright
   Frames: 20220 - 20250  (31 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: unlockcntr
   Frames: 6680 - 6730  (51 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: unlockdr
   Frames: 6570 - 6615  (46 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: uppoint
   Frames: 26540 - 26564  (25 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: -
 
 Animation: usecomp
   Frames: 6250 - 6400  (151 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: usecomplp
   Frames: 6460 - 6507  (48 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: victory
   Frames: 1970 - 2010  (41 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 Animation: walk
   Frames: 20310 - 20342  (33 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_footstep@20320, snd_footstep@20336
 
 Animation: walkds
   Frames: 16970 - 17002  (33 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_footstep@16980, snd_footstep@16996
 
 Animation: walkinj
   Frames: 21320 - 21352  (33 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_footstep@21323, snd_footstep@21333
 
 Animation: walkrf
   Frames: 17170 - 17202  (33 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_footstep@17177, snd_footstep@17195
 
 Animation: walkss
   Frames: 16870 - 16902  (33 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_footstep@16880, snd_footstep@16896
 
 Animation: walkst
   Frames: 17070 - 17102  (33 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 0.25
+  TTime: 0.25
   Events: snd_footstep@17080, snd_footstep@17096
 
 Animation: whirlwind
   Frames: 8870 - 8889  (20 frames)
   Description: unclassified / non-combat / custom animation
   Root: KA_Male02
+  Root Object: KA_Male02
   Transition Time: 1.0
+  TTime: 1.0
   Events: -
 
 
+MODEL: S_Female01
+------------------------------------------------------------------------------------------
+Animation count: 76
+
+Animation: c3d1
+  Frames: 2310 - 2354  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | damage / hit reaction | variation 1
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@2319, HitParry@2320, contact@2331, HitParry@2332, contact@2348
+
+Animation: c3d2
+  Frames: 2420 - 2464  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | damage / hit reaction | variation 2
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@2430, contact@2449
+
+Animation: c3d3
+  Frames: 2530 - 2574  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | damage / hit reaction | variation 3
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@2537, contact@2539, HitParry@2540, Swingshort@2548, contact@2551, HitParry@2552, contact@2566
+
+Animation: c3d4
+  Frames: 2640 - 2684  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | damage / hit reaction | variation 4
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@2650, Clash@2651, Clash@2658, Clash@2665, contact@2666
+
+Animation: c3d5
+  Frames: 2750 - 2794  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | damage / hit reaction | variation 5
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@2755, contact@2759, HitParry@2760
+
+Animation: c3p1
+  Frames: 1760 - 1804  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | parry | variation 1
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@1767, contact@1769, HitParry@1769, Swinglong@1776, contact@1781, HitParry@1781, Swinglong@1794, contact@1797, HitParry@1797
+
+Animation: c3p2
+  Frames: 1870 - 1914  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | parry | variation 2
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1879, Swingshort@1894, contact@1899, HitParry@1899
+
+Animation: c3p3
+  Frames: 1980 - 2024  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | parry | variation 3
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1986, contact@1989, HitParry@1990, Swinglong@1998, contact@2001, HitParry@2002, Swingshort@2015, contact@2016, HitParry@2017
+
+Animation: c3p4
+  Frames: 2090 - 2134  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | parry | variation 4
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@2100, Clash@2100, Clash@2107, Clash@2115, contact@2116
+
+Animation: c3p5
+  Frames: 2200 - 2244  (45 frames)
+  Description: combat / melee | double-bladed lightsaber | parry | variation 5
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@2209, HitParry@2209
+
+Animation: c4d1
+  Frames: 4070 - 4114  (45 frames)
+  Description: combat / melee | dual lightsabers | damage / hit reaction | variation 1
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@4079, HitParry@4079, Swingtwirl@4083, contact@4091, HitParry@4092, contact@4107
+
+Animation: c4d2
+  Frames: 4180 - 4224  (45 frames)
+  Description: combat / melee | dual lightsabers | damage / hit reaction | variation 2
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@4209
+
+Animation: c4d3
+  Frames: 4290 - 4334  (45 frames)
+  Description: combat / melee | dual lightsabers | damage / hit reaction | variation 3
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@4299, HitParry@4299, contact@4311, HitParry@4311, Swinglong@4324, contact@4326
+
+Animation: c4d4
+  Frames: 4400 - 4444  (45 frames)
+  Description: combat / melee | dual lightsabers | damage / hit reaction | variation 4
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@4410, Clash@4410, Clash@4417, contact@4425, Clash@4426
+
+Animation: c4d5
+  Frames: 4510 - 4554  (45 frames)
+  Description: combat / melee | dual lightsabers | damage / hit reaction | variation 5
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@4519, HitParry@4520, Swinglong@4537
+
+Animation: c4p1
+  Frames: 3520 - 3564  (45 frames)
+  Description: combat / melee | dual lightsabers | parry | variation 1
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@3529, HitParry@3529, Swingtwirl@3533, contact@3541, HitParry@3542, contact@3557, HitParry@3558
+
+Animation: c4p2
+  Frames: 3630 - 3674  (45 frames)
+  Description: combat / melee | dual lightsabers | parry | variation 2
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@3658, HitParry@3658
+
+Animation: c4p3
+  Frames: 3740 - 3784  (45 frames)
+  Description: combat / melee | dual lightsabers | parry | variation 3
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@3749, HitParry@3749, contact@3761, HitParry@3761, contact@3776, HitParry@3776
+
+Animation: c4p4
+  Frames: 3850 - 3894  (45 frames)
+  Description: combat / melee | dual lightsabers | parry | variation 4
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@3860, Clash@3860, Clash@3868, Clash@3876, contact@3879
+
+Animation: c4p5
+  Frames: 3960 - 4004  (45 frames)
+  Description: combat / melee | dual lightsabers | parry | variation 5
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@3969, HitParry@3970, Swingshort@3989, Swinglong@3997
+
+Animation: crushdamage
+  Frames: 8030 - 8090  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: cut032L
+  Frames: 8360 - 8420  (61 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f2d1a
+  Frames: 280 - 324  (45 frames)
+  Description: feat / special combat | single lightsaber | damage / hit reaction | variation 1a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingtwirl@281, Clash@290, Clash@298, Hit@307
+
+Animation: f2d2a
+  Frames: 60 - 104  (45 frames)
+  Description: feat / special combat | single lightsaber | damage / hit reaction | variation 2a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Clash@74, contact@76, HitParry@76, Clash@84, Hit@84
+
+Animation: f2p2a
+  Frames: 170 - 214  (45 frames)
+  Description: feat / special combat | single lightsaber | parry | variation 2a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@186, HitParry@186, contact@193, HitParry@193
+
+Animation: f3d1a
+  Frames: 3190 - 3234  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 1a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@3195, contact@3200, Swinglong@3209
+
+Animation: f3d1b
+  Frames: 6710 - 6754  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 1b
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@6713, contact@6717
+
+Animation: f3d1c
+  Frames: 6930 - 6974  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 1c
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@6933, contact@6937, Clash@6937
+
+Animation: f3d2a
+  Frames: 3300 - 3344  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 2a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@3315, HitParry@3316, contact@3323, Hit@3324
+
+Animation: f3d2b
+  Frames: 7150 - 7194  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 2b
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@7155, HitParry@7155, contact@7167, HitParry@7167, Hit@7179
+
+Animation: f3d2c
+  Frames: 7480 - 7524  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 2c
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f3d3a
+  Frames: 3410 - 3454  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 3a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@3436, Hit@3436
+
+Animation: f3d3b
+  Frames: 7590 - 7634  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 3b
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@7616, Hit@7616
+
+Animation: f3d3c
+  Frames: 7810 - 7854  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | damage / hit reaction | variation 3c
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@7836, Hit@7836
+
+Animation: f3p1a
+  Frames: 390 - 434  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 1a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Clash@400, Clash@407
+
+Animation: f3p1a
+  Frames: 2860 - 2904  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 1a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@2869
+
+Animation: f3p1b
+  Frames: 6820 - 6864  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 1b
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@6823, contact@6827
+
+Animation: f3p1c
+  Frames: 7040 - 7084  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 1c
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@7043, contact@7047, Clash@7047, contact@7066, HitParry@7066
+
+Animation: f3p2a
+  Frames: 2970 - 3014  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 2a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@2975, contact@2985, HitParry@2986, contact@2993, HitParry@2994
+
+Animation: f3p2b
+  Frames: 7260 - 7304  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 2b
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@7265, HitParry@7265, contact@7277, HitParry@7277, contact@7289, Hit@7289, HitParry@7289
+
+Animation: f3p2c
+  Frames: 7370 - 7414  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 2c
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f3p3a
+  Frames: 3080 - 3124  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 3a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@3105, Swinglong@3119
+
+Animation: f3p3b
+  Frames: 7700 - 7744  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 3b
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@7725, Swinglong@7739
+
+Animation: f3p3c
+  Frames: 7920 - 7964  (45 frames)
+  Description: feat / special combat | double-bladed lightsaber | parry | variation 3c
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@7945, Swinglong@7959
+
+Animation: f4d1a
+  Frames: 4950 - 4994  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 1a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@4954, contact@4960, Hit@4978
+
+Animation: f4d1b
+  Frames: 5940 - 5984  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 1b
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@5944, contact@5947, Clash@5947
+
+Animation: f4d1c
+  Frames: 5280 - 5324  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 1c
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@5283, contact@5287, Clash@5287, HitParry@5287, Swinglong@5314, Swingshort@5315
+
+Animation: f4d2a
+  Frames: 5060 - 5104  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 2a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: HitParry@5075, contact@5076, contact@5083, Hit@5084
+
+Animation: f4d2b
+  Frames: 6160 - 6204  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 2b
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@6174, contact@6177, HitParry@6177
+
+Animation: f4d2c
+  Frames: 5500 - 5544  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 2c
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f4d3a
+  Frames: 5170 - 5214  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 3a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@5196, Hit@5196
+
+Animation: f4d3b
+  Frames: 6380 - 6424  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 3b
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@6405
+
+Animation: f4d3c
+  Frames: 5720 - 5764  (45 frames)
+  Description: feat / special combat | dual lightsabers | damage / hit reaction | variation 3c
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@5746
+
+Animation: f4p1a
+  Frames: 4620 - 4664  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 1a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@4625, contact@4630
+
+Animation: f4p1b
+  Frames: 6050 - 6094  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 1b
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@6054, contact@6057, Clash@6057, HitParry@6057
+
+Animation: f4p1c
+  Frames: 5390 - 5434  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 1c
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@5393, contact@5397, Clash@5397, Swinglong@5424, Swingshort@5425
+
+Animation: f4p2a
+  Frames: 4730 - 4774  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 2a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: contact@4745, HitParry@4745, contact@4754, HitParry@4754
+
+Animation: f4p2b
+  Frames: 6270 - 6314  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 2b
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@6284, contact@6287, HitParry@6287, Swingshort@6297, contact@6299, HitParry@6299
+
+Animation: f4p2c
+  Frames: 5610 - 5654  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 2c
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f4p3a
+  Frames: 4840 - 4884  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 3a
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@4867
+
+Animation: f4p3b
+  Frames: 6490 - 6534  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 3b
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: f4p3c
+  Frames: 5830 - 5874  (45 frames)
+  Description: feat / special combat | dual lightsabers | parry | variation 3c
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g3a3
+  Frames: 6600 - 6644  (45 frames)
+  Description: general combat | double-bladed lightsaber | attack | variation 3
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@6613, Hit@6615, Swingtwirl@6618
+
+Animation: g3d1
+  Frames: 1130 - 1143  (14 frames)
+  Description: general combat | double-bladed lightsaber | damage / hit reaction | variation 1
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g3g1
+  Frames: 1210 - 1255  (46 frames)
+  Description: general combat | double-bladed lightsaber | dodge / evade | variation 1
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1221
+
+Animation: g4d1
+  Frames: 500 - 513  (14 frames)
+  Description: general combat | dual lightsabers | damage / hit reaction | variation 1
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: g4g1
+  Frames: 580 - 625  (46 frames)
+  Description: general combat | dual lightsabers | dodge / evade | variation 1
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: lhandchop
+  Frames: 8150 - 8300  (151 frames)
+  Description: unclassified / non-combat / custom animation
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: m3d1
+  Frames: 1540 - 1585  (46 frames)
+  Description: monster / creature combat | double-bladed lightsaber | damage / hit reaction | variation 1
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@1559
+
+Animation: m3d2
+  Frames: 1650 - 1695  (46 frames)
+  Description: monster / creature combat | double-bladed lightsaber | damage / hit reaction | variation 2
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1654
+
+Animation: m3g1
+  Frames: 1320 - 1365  (46 frames)
+  Description: monster / creature combat | double-bladed lightsaber | dodge / evade | variation 1
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1334
+
+Animation: m3g2
+  Frames: 1430 - 1475  (46 frames)
+  Description: monster / creature combat | double-bladed lightsaber | dodge / evade | variation 2
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@1439
+
+Animation: m4d1
+  Frames: 910 - 955  (46 frames)
+  Description: monster / creature combat | dual lightsabers | damage / hit reaction | variation 1
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: -
+
+Animation: m4d2
+  Frames: 1020 - 1065  (46 frames)
+  Description: monster / creature combat | dual lightsabers | damage / hit reaction | variation 2
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swingshort@1025
+
+Animation: m4g1
+  Frames: 690 - 735  (46 frames)
+  Description: monster / creature combat | dual lightsabers | dodge / evade | variation 1
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@708, Swinglong@719
+
+Animation: m4g2
+  Frames: 800 - 845  (46 frames)
+  Description: monster / creature combat | dual lightsabers | dodge / evade | variation 2
+  Root: S_Female01
+  Root Object: None
+  Transition Time: 0.25
+  TTime: 0.25
+  Events: Swinglong@811
+
+
+==========================================================================================
+TOTAL MODELS: 6
+TOTAL ANIMATIONS: 603
