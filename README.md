@@ -5,6 +5,8 @@ Mostly port from kotor I and II directly into NWN
 ## To-do List
 
 - [ ] Do modular republic ship Tileset
+- [ ] Design prestige class suggestions
+- [ ] Design Noble base Class suggestion
 - [ ] Design + create area for a planet or limited planet/dungeon
 
 ## Changes
